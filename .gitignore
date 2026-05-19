@@ -1,0 +1,29 @@
+# Cloudflare wrangler 本機快取（含 account_id、email 等本機狀態）
+.wrangler/
+
+# 可能誤產的 token / secret 檔
+.cloudflare_token
+.cloudflare_token.*
+.env
+.env.*
+*.secret
+*.key
+
+# OS / 編輯器
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Node（若日後加入 build 流程）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 暫存
+*.log
+*.tmp
+.cache/

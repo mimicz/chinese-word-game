@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>字字千金 — 中文文字挑戰</title>
+  <meta name="description" content="中文文字挑戰：將錯糾錯、字字珠璣">
+  <meta name="theme-color" content="#B91C1C">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+
+    <!-- 首頁 -->
+    <section class="screen active" id="screen-home">
+      <h1 class="title">字字千金</h1>
+      <p class="subtitle">中文文字挑戰</p>
+      <div class="menu">
+        <button class="btn-primary" data-mode="levels">關卡模式</button>
+        <button class="btn-secondary" data-mode="practice">練習模式</button>
+      </div>
+      <div class="best-scores" id="best-scores"></div>
+      <button class="btn-share" id="btn-share">📱 分享給朋友</button>
+      <p class="footnote">向公視《一字千金》節目致敬 ・ 題庫僅供學習</p>
+    </section>
+
+    <!-- QR Code 分享 modal -->
+    <div class="modal-backdrop" id="share-modal" hidden>
+      <div class="modal">
+        <button class="modal-close" id="share-close" aria-label="關閉">×</button>
+        <h3 class="modal-title">分享給朋友</h3>
+        <p class="modal-hint">請對方用手機相機掃碼</p>
+        <div class="qr-box" id="qr-box"></div>
+        <div class="share-url" id="share-url"></div>
+        <button class="btn-secondary" id="btn-copy">複製網址</button>
+      </div>
+    </div>
+
+    <!-- 題型選擇 -->
+    <section class="screen" id="screen-type">
+      <h2 class="screen-title">選擇題型</h2>
+      <p class="screen-subtitle" id="type-subtitle"></p>
+      <div class="type-cards">
+        <button class="type-card" data-type="jiangcuo">
+          <div class="type-icon">辨</div>
+          <div class="type-name">將錯糾錯</div>
+          <div class="type-desc">兩個寫法<br>選一個正確的</div>
+        </button>
+        <button class="type-card" data-type="zizhu">
+          <div class="type-icon">珠</div>
+          <div class="type-name">字字珠璣</div>
+          <div class="type-desc">找出能組成<br>四組詞彙的共通字</div>
+        </button>
+      </div>
+      <button class="btn-back" id="btn-back-from-type">← 返回</button>
+    </section>
+
+    <!-- 遊戲畫面 -->
+    <section class="screen" id="screen-game">
+      <div class="game-header">
+        <div class="hud-cell">
+          <div class="hud-label" id="hud-progress-label">題目</div>
+          <div class="hud-value" id="hud-progress">1 / 10</div>
+        </div>
+        <div class="hud-cell" id="hud-timer-cell">
+          <div class="hud-label">剩餘時間</div>
+          <div class="hud-value" id="hud-timer">15</div>
+        </div>
+        <div class="hud-cell">
+          <div class="hud-label" id="hud-score-label">分數</div>
+          <div class="hud-value" id="hud-score">0</div>
+        </div>
+      </div>
+      <div class="game-body" id="game-body"></div>
+      <div class="game-feedback" id="game-feedback"></div>
+      <button class="btn-quit" id="btn-quit">退出</button>
+    </section>
+
+    <!-- 結算 -->
+    <section class="screen" id="screen-result">
+      <h2 class="screen-title">本關結果</h2>
+      <div class="result-stats">
+        <div class="result-stat">
+          <div class="stat-label">得分</div>
+          <div class="stat-value" id="result-score">0</div>
+        </div>
+        <div class="result-stat">
+          <div class="stat-label">答對</div>
+          <div class="stat-value" id="result-correct">0 / 10</div>
+        </div>
+        <div class="result-stat">
+          <div class="stat-label">最高分</div>
+          <div class="stat-value" id="result-best">0</div>
+        </div>
+      </div>
+      <div class="result-message" id="result-message"></div>
+      <div class="result-actions">
+        <button class="btn-primary" id="btn-retry">再玩一次</button>
+        <button class="btn-secondary" id="btn-home">回首頁</button>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="qrcode.min.js"></script>
+  <script src="data/jiangcuo.js"></script>
+  <script src="data/zizhu.js"></script>
+  <script src="app.js"></script>
+  <script src="register-sw.js"></script>
+</body>
+</html>

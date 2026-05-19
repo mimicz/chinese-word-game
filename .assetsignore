@@ -1,0 +1,24 @@
+# 不要上傳到 Cloudflare Pages 的檔案/資料夾
+# 語法同 .gitignore，由 Cloudflare Pages 識別
+
+# 部署用腳本（本地工具，不該對外暴露）
+*.sh
+
+# wrangler 本機狀態快取（含 account id / email，非機密但無需公開）
+.wrangler/
+
+# 萬一在專案夾誤產生 token 檔
+.cloudflare_token*
+.env
+.env.*
+
+# Git 內部
+.git/
+.gitignore
+
+# OS / 編輯器雜物
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

@@ -1,13 +1,22 @@
 # Cloudflare wrangler 本機快取（含 account_id、email 等本機狀態）
 .wrangler/
+.dev.vars
+.dev.vars.*
 
 # 可能誤產的 token / secret 檔
 .cloudflare_token
 .cloudflare_token.*
+.anthropic_token
+.anthropic_token.*
 .env
 .env.*
 *.secret
 *.key
+
+# 題庫生成中間檔
+schema/dict/.candidates/
+schema/dict/.rerank-cache.json
+schema/dict/.batch-state*.json
 
 # OS / 編輯器
 .DS_Store
@@ -27,3 +36,6 @@ yarn-error.log*
 *.log
 *.tmp
 .cache/
+
+# 開發 session 筆記（個人用，不上 GitHub）
+SESSION-NOTES.md

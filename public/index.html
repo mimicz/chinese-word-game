@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>字字千金 — 中文文字挑戰</title>
-  <meta name="description" content="中文文字挑戰：將錯糾錯、字字珠璣">
+  <meta name="description" content="中文文字挑戰:將錯糾錯、字字珠璣">
   <meta name="theme-color" content="#B91C1C">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/svg+xml" href="icon.svg">
@@ -18,14 +18,49 @@
     <section class="screen active" id="screen-home">
       <h1 class="title">字字千金</h1>
       <p class="subtitle">中文文字挑戰</p>
+
+      <div class="nickname-bar">
+        <span class="nickname-label">玩家</span>
+        <span class="nickname-value" id="nickname-display">—</span>
+        <button class="nickname-edit" id="btn-edit-nickname">改暱稱</button>
+      </div>
+
       <div class="menu">
         <button class="btn-primary" data-mode="levels">關卡模式</button>
         <button class="btn-secondary" data-mode="practice">練習模式</button>
       </div>
-      <div class="best-scores" id="best-scores"></div>
+
+      <!-- 排行榜 -->
+      <div class="leaderboard-box">
+        <h3 class="lb-title">🏆 全域排行榜</h3>
+        <div class="lb-tabs">
+          <button class="lb-tab active" data-lb-type="jiangcuo" data-lb-diff="elementary">將錯·國小</button>
+          <button class="lb-tab" data-lb-type="jiangcuo" data-lb-diff="middle">將錯·國中</button>
+          <button class="lb-tab" data-lb-type="zizhu" data-lb-diff="elementary">珠璣·國小</button>
+          <button class="lb-tab" data-lb-type="zizhu" data-lb-diff="middle">珠璣·國中</button>
+        </div>
+        <div class="lb-list" id="lb-list">
+          <div class="lb-empty">載入中…</div>
+        </div>
+      </div>
+
       <button class="btn-share" id="btn-share">📱 分享給朋友</button>
       <p class="footnote">向公視《一字千金》節目致敬 ・ 題庫僅供學習</p>
     </section>
+
+    <!-- 暱稱輸入 modal -->
+    <div class="modal-backdrop" id="nickname-modal" hidden>
+      <div class="modal">
+        <h3 class="modal-title">請輸入暱稱</h3>
+        <p class="modal-hint">免註冊,1–16 字,作為排行榜顯示用</p>
+        <input type="text" id="nickname-input" maxlength="16" autocomplete="off" placeholder="例:文字達人">
+        <p class="form-error" id="nickname-error"></p>
+        <div class="modal-actions-row">
+          <button class="btn-secondary modal-btn" id="nickname-cancel" hidden>取消</button>
+          <button class="btn-primary modal-btn" id="nickname-save">確認</button>
+        </div>
+      </div>
+    </div>
 
     <!-- QR Code 分享 modal -->
     <div class="modal-backdrop" id="share-modal" hidden>
@@ -39,20 +74,35 @@
       </div>
     </div>
 
-    <!-- 題型選擇 -->
+    <!-- 題型 × 難度選擇 -->
     <section class="screen" id="screen-type">
-      <h2 class="screen-title">選擇題型</h2>
+      <h2 class="screen-title">選擇題型與難度</h2>
       <p class="screen-subtitle" id="type-subtitle"></p>
-      <div class="type-cards">
-        <button class="type-card" data-type="jiangcuo">
+
+      <div class="type-difficulty-grid">
+        <button class="type-card" data-type="jiangcuo" data-difficulty="elementary">
           <div class="type-icon">辨</div>
           <div class="type-name">將錯糾錯</div>
-          <div class="type-desc">兩個寫法<br>選一個正確的</div>
+          <div class="type-diff elementary">國小以下</div>
+          <div class="type-desc">基礎錯別字辨正</div>
         </button>
-        <button class="type-card" data-type="zizhu">
+        <button class="type-card" data-type="jiangcuo" data-difficulty="middle">
+          <div class="type-icon">辨</div>
+          <div class="type-name">將錯糾錯</div>
+          <div class="type-diff middle">國中以上</div>
+          <div class="type-desc">成語難字辨正</div>
+        </button>
+        <button class="type-card" data-type="zizhu" data-difficulty="elementary">
           <div class="type-icon">珠</div>
           <div class="type-name">字字珠璣</div>
-          <div class="type-desc">找出能組成<br>四組詞彙的共通字</div>
+          <div class="type-diff elementary">國小以下</div>
+          <div class="type-desc">生活常見共通字</div>
+        </button>
+        <button class="type-card" data-type="zizhu" data-difficulty="middle">
+          <div class="type-icon">珠</div>
+          <div class="type-name">字字珠璣</div>
+          <div class="type-diff middle">國中以上</div>
+          <div class="type-desc">每題 3 分鐘深思</div>
         </button>
       </div>
       <button class="btn-back" id="btn-back-from-type">← 返回</button>
@@ -74,10 +124,34 @@
           <div class="hud-value" id="hud-score">0</div>
         </div>
       </div>
+      <div class="offline-banner" id="offline-banner" hidden>⚠ 目前離線模式,使用本地題庫,不會記錄分數</div>
       <div class="game-body" id="game-body"></div>
       <div class="game-feedback" id="game-feedback"></div>
       <button class="btn-quit" id="btn-quit">退出</button>
     </section>
+
+    <!-- 回報題目 modal -->
+    <div class="modal-backdrop" id="report-modal" hidden>
+      <div class="modal">
+        <button class="modal-close" id="report-close" aria-label="關閉">×</button>
+        <h3 class="modal-title">回報題目有誤</h3>
+        <p class="modal-hint">題目 #<span id="report-qid">—</span></p>
+        <label class="form-label">問題類別</label>
+        <div class="report-reasons">
+          <label><input type="radio" name="report-reason-cat" value="錯字" checked> 錯字</label>
+          <label><input type="radio" name="report-reason-cat" value="解釋有誤"> 解釋有誤</label>
+          <label><input type="radio" name="report-reason-cat" value="答案有爭議"> 答案有爭議</label>
+          <label><input type="radio" name="report-reason-cat" value="其他"> 其他</label>
+        </div>
+        <label class="form-label">補充說明 (選填)</label>
+        <textarea id="report-detail" rows="3" maxlength="180" placeholder="例:字典查得到「再接再勵」這個寫法…"></textarea>
+        <p class="form-error" id="report-error"></p>
+        <div class="modal-actions-row">
+          <button class="btn-secondary modal-btn" id="report-cancel">取消</button>
+          <button class="btn-primary modal-btn" id="report-submit">送出</button>
+        </div>
+      </div>
+    </div>
 
     <!-- 結算 -->
     <section class="screen" id="screen-result">
@@ -92,11 +166,17 @@
           <div class="stat-value" id="result-correct">0 / 10</div>
         </div>
         <div class="result-stat">
-          <div class="stat-label">最高分</div>
-          <div class="stat-value" id="result-best">0</div>
+          <div class="stat-label">名次</div>
+          <div class="stat-value" id="result-rank">—</div>
         </div>
       </div>
       <div class="result-message" id="result-message"></div>
+
+      <div class="result-leaderboard" id="result-leaderboard">
+        <h3>排行榜</h3>
+        <div class="lb-list" id="result-lb-list"></div>
+      </div>
+
       <div class="result-actions">
         <button class="btn-primary" id="btn-retry">再玩一次</button>
         <button class="btn-secondary" id="btn-home">回首頁</button>
@@ -108,6 +188,7 @@
   <script src="qrcode.min.js"></script>
   <script src="data/jiangcuo.js"></script>
   <script src="data/zizhu.js"></script>
+  <script src="api.js"></script>
   <script src="app.js"></script>
   <script src="register-sw.js"></script>
 </body>

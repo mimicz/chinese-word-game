@@ -1,0 +1,1137 @@
+[
+  {
+    "correct": "已經",
+    "wrong": "以經",
+    "explanation": "「已」表示完成；「以」是介詞,如「以為」。"
+  },
+  {
+    "correct": "以為",
+    "wrong": "已為",
+    "explanation": "「以為」是「認為」的意思,用「以」。"
+  },
+  {
+    "correct": "再見",
+    "wrong": "在見",
+    "explanation": "「再」是「又一次」;「在」是「位於」。"
+  },
+  {
+    "correct": "在家",
+    "wrong": "再家",
+    "explanation": "「在」表示位置;「再」是又一次。"
+  },
+  {
+    "correct": "做事",
+    "wrong": "作事",
+    "explanation": "動作用「做」,如做事、做飯;「作」多用於書面語。"
+  },
+  {
+    "correct": "作文",
+    "wrong": "做文",
+    "explanation": "「作文」是固定詞,寫文章用「作」。"
+  },
+  {
+    "correct": "工作",
+    "wrong": "工做",
+    "explanation": "「工作」是固定詞,用「作」。"
+  },
+  {
+    "correct": "好像",
+    "wrong": "好象",
+    "explanation": "「像」表示似乎、相似;「象」是動物大象。"
+  },
+  {
+    "correct": "想像",
+    "wrong": "想象",
+    "explanation": "在台灣國語,「想像」用「像」(同 看起來像)。"
+  },
+  {
+    "correct": "座位",
+    "wrong": "坐位",
+    "explanation": "「座位」指供人坐的位子,用「座」。「坐」是動作。"
+  },
+  {
+    "correct": "請坐",
+    "wrong": "請座",
+    "explanation": "動詞用「坐」;「座」是名詞,如座位。"
+  },
+  {
+    "correct": "打開",
+    "wrong": "打閞",
+    "explanation": "「開」是常見字,「閞」非標準字。"
+  },
+  {
+    "correct": "關門",
+    "wrong": "閞門",
+    "explanation": "「關」字常用,「閞」是錯誤寫法。"
+  },
+  {
+    "correct": "老師",
+    "wrong": "老帥",
+    "explanation": "「師」指老師;「帥」指英俊或元帥。"
+  },
+  {
+    "correct": "學校",
+    "wrong": "學効",
+    "explanation": "「校」指學校;「効」非標準字。"
+  },
+  {
+    "correct": "同學",
+    "wrong": "同覺",
+    "explanation": "「學」是學習;「覺」是感覺。"
+  },
+  {
+    "correct": "朋友",
+    "wrong": "明友",
+    "explanation": "「朋」是朋友;「明」是明白。"
+  },
+  {
+    "correct": "高興",
+    "wrong": "高與",
+    "explanation": "「興」是高興;「與」是和、跟。"
+  },
+  {
+    "correct": "開心",
+    "wrong": "閞心",
+    "explanation": "「開」是打開;「閞」是錯字。"
+  },
+  {
+    "correct": "漂亮",
+    "wrong": "飄亮",
+    "explanation": "「漂亮」是固定詞,用「漂」(三點水)。「飄」指飄動。"
+  },
+  {
+    "correct": "美麗",
+    "wrong": "美利",
+    "explanation": "「麗」指美好;「利」是利益。"
+  },
+  {
+    "correct": "認真",
+    "wrong": "忍真",
+    "explanation": "「認」指認識、認真;「忍」是忍耐。"
+  },
+  {
+    "correct": "努力",
+    "wrong": "努利",
+    "explanation": "「努力」是固定詞,用「力」。"
+  },
+  {
+    "correct": "力氣",
+    "wrong": "力器",
+    "explanation": "「氣」指力氣、空氣;「器」是器具。"
+  },
+  {
+    "correct": "勇敢",
+    "wrong": "勇感",
+    "explanation": "「敢」是勇敢;「感」是感覺。"
+  },
+  {
+    "correct": "動物",
+    "wrong": "重物",
+    "explanation": "「動」是動作、動物;「重」是重量。"
+  },
+  {
+    "correct": "植物",
+    "wrong": "植勿",
+    "explanation": "「物」是事物;「勿」是不要的意思。"
+  },
+  {
+    "correct": "動作",
+    "wrong": "動做",
+    "explanation": "「動作」是固定詞,用「作」。"
+  },
+  {
+    "correct": "運動",
+    "wrong": "運重",
+    "explanation": "「動」是動作;「重」是重量。"
+  },
+  {
+    "correct": "喜歡",
+    "wrong": "喜觀",
+    "explanation": "「歡」指歡喜;「觀」是觀看。"
+  },
+  {
+    "correct": "歡迎",
+    "wrong": "歡抑",
+    "explanation": "「迎」是迎接;「抑」是抑制。"
+  },
+  {
+    "correct": "原來",
+    "wrong": "員來",
+    "explanation": "「原」是原本;「員」指人員。"
+  },
+  {
+    "correct": "員工",
+    "wrong": "原工",
+    "explanation": "「員」指人員;「原」是原本。"
+  },
+  {
+    "correct": "答案",
+    "wrong": "答按",
+    "explanation": "「案」指答案、案件;「按」是按下。"
+  },
+  {
+    "correct": "按時",
+    "wrong": "案時",
+    "explanation": "「按」是依照;「案」是案件。"
+  },
+  {
+    "correct": "題目",
+    "wrong": "提目",
+    "explanation": "「題」是題目;「提」是提起。"
+  },
+  {
+    "correct": "提問",
+    "wrong": "題問",
+    "explanation": "「提」是提出;「題」是題目。"
+  },
+  {
+    "correct": "問題",
+    "wrong": "問提",
+    "explanation": "「題」是題目;「提」是提起。"
+  },
+  {
+    "correct": "練習",
+    "wrong": "練昔",
+    "explanation": "「習」是學習、練習;「昔」是從前。"
+  },
+  {
+    "correct": "複習",
+    "wrong": "複昔",
+    "explanation": "「習」指學習;「昔」非此意。"
+  },
+  {
+    "correct": "知道",
+    "wrong": "知到",
+    "explanation": "「知道」用「道」(知道道理);「到」是到達。"
+  },
+  {
+    "correct": "到達",
+    "wrong": "道達",
+    "explanation": "「到」是到達;「道」是道路、道理。"
+  },
+  {
+    "correct": "道理",
+    "wrong": "到理",
+    "explanation": "「道」指道理;「到」是到達。"
+  },
+  {
+    "correct": "理由",
+    "wrong": "理油",
+    "explanation": "「由」是原由、理由;「油」是石油。"
+  },
+  {
+    "correct": "加油",
+    "wrong": "加由",
+    "explanation": "「加油」用「油」;「由」是原由。"
+  },
+  {
+    "correct": "自由",
+    "wrong": "自油",
+    "explanation": "「自由」用「由」;「油」是液體。"
+  },
+  {
+    "correct": "流水",
+    "wrong": "留水",
+    "explanation": "「流」指水的流動;「留」是停留。"
+  },
+  {
+    "correct": "留下",
+    "wrong": "流下",
+    "explanation": "「留」是停留;「流」是流動 (淚水才用「流下」)。"
+  },
+  {
+    "correct": "眼淚",
+    "wrong": "眼累",
+    "explanation": "「淚」指眼淚;「累」是疲累。"
+  },
+  {
+    "correct": "疲累",
+    "wrong": "疲淚",
+    "explanation": "「累」是疲累;「淚」是眼淚。"
+  },
+  {
+    "correct": "夢想",
+    "wrong": "夢相",
+    "explanation": "「想」是想法、夢想;「相」是模樣、互相。"
+  },
+  {
+    "correct": "互相",
+    "wrong": "互想",
+    "explanation": "「相」指互相;「想」是想法。"
+  },
+  {
+    "correct": "開始",
+    "wrong": "開使",
+    "explanation": "「始」指開始;「使」是使用、讓。"
+  },
+  {
+    "correct": "使用",
+    "wrong": "始用",
+    "explanation": "「使」是使用;「始」是開始。"
+  },
+  {
+    "correct": "結束",
+    "wrong": "結朿",
+    "explanation": "「束」是束縛、結束;「朿」非標準字。"
+  },
+  {
+    "correct": "完成",
+    "wrong": "完城",
+    "explanation": "「成」是完成;「城」是城牆。"
+  },
+  {
+    "correct": "城市",
+    "wrong": "成市",
+    "explanation": "「城」是城市、城牆;「成」是完成。"
+  },
+  {
+    "correct": "市場",
+    "wrong": "市揚",
+    "explanation": "「場」是場所;「揚」是飛揚。"
+  },
+  {
+    "correct": "飛揚",
+    "wrong": "飛場",
+    "explanation": "「揚」是飛揚、揚起;「場」是場所。"
+  },
+  {
+    "correct": "廣場",
+    "wrong": "廣揚",
+    "explanation": "「場」指廣場;「揚」是飛揚。"
+  },
+  {
+    "correct": "打掃",
+    "wrong": "打騷",
+    "explanation": "「掃」指清掃;「騷」是騷擾。"
+  },
+  {
+    "correct": "清潔",
+    "wrong": "清結",
+    "explanation": "「潔」指乾淨;「結」是結合。"
+  },
+  {
+    "correct": "洗澡",
+    "wrong": "洗噪",
+    "explanation": "「澡」指洗澡;「噪」是噪音。"
+  },
+  {
+    "correct": "噪音",
+    "wrong": "澡音",
+    "explanation": "「噪」是噪音;「澡」是洗澡。"
+  },
+  {
+    "correct": "安靜",
+    "wrong": "安淨",
+    "explanation": "「靜」指安靜;「淨」是乾淨。"
+  },
+  {
+    "correct": "乾淨",
+    "wrong": "乾靜",
+    "explanation": "「淨」是乾淨;「靜」是安靜。"
+  },
+  {
+    "correct": "健康",
+    "wrong": "建康",
+    "explanation": "「健」是健康;「建」是建造。"
+  },
+  {
+    "correct": "建造",
+    "wrong": "健造",
+    "explanation": "「建」是建造;「健」是健康。"
+  },
+  {
+    "correct": "營養",
+    "wrong": "營樣",
+    "explanation": "「養」指營養、養育;「樣」是樣子。"
+  },
+  {
+    "correct": "模樣",
+    "wrong": "模養",
+    "explanation": "「樣」指樣子;「養」是養育。"
+  },
+  {
+    "correct": "練功",
+    "wrong": "煉功",
+    "explanation": "國小階段「練習」常寫「練」;「煉」多指鍛冶。"
+  },
+  {
+    "correct": "成功",
+    "wrong": "成工",
+    "explanation": "「成功」用「功」;「工」是工人。"
+  },
+  {
+    "correct": "工人",
+    "wrong": "功人",
+    "explanation": "「工」指工人;「功」是功課、成功。"
+  },
+  {
+    "correct": "功課",
+    "wrong": "工課",
+    "explanation": "「功課」用「功」;「工」是工作。"
+  },
+  {
+    "correct": "重要",
+    "wrong": "重耀",
+    "explanation": "「要」是重要;「耀」是閃耀。"
+  },
+  {
+    "correct": "閃耀",
+    "wrong": "閃要",
+    "explanation": "「耀」是閃耀;「要」是重要。"
+  },
+  {
+    "correct": "明亮",
+    "wrong": "明良",
+    "explanation": "「亮」是明亮;「良」是善良。"
+  },
+  {
+    "correct": "善良",
+    "wrong": "善亮",
+    "explanation": "「良」指善良;「亮」是明亮。"
+  },
+  {
+    "correct": "溫暖",
+    "wrong": "溫緩",
+    "explanation": "「暖」是溫暖;「緩」是緩慢。"
+  },
+  {
+    "correct": "緩慢",
+    "wrong": "暖慢",
+    "explanation": "「緩」指緩慢;「暖」是溫暖。"
+  },
+  {
+    "correct": "涼快",
+    "wrong": "良快",
+    "explanation": "「涼」指涼爽;「良」是良好。"
+  },
+  {
+    "correct": "季節",
+    "wrong": "季結",
+    "explanation": "「節」指季節、節日;「結」是結合。"
+  },
+  {
+    "correct": "節日",
+    "wrong": "結日",
+    "explanation": "「節」指節日;「結」是結束、打結。"
+  },
+  {
+    "correct": "打結",
+    "wrong": "打節",
+    "explanation": "「結」是打結;「節」是節日。"
+  },
+  {
+    "correct": "連結",
+    "wrong": "連節",
+    "explanation": "「結」是連結;「節」是節日。"
+  },
+  {
+    "correct": "故事",
+    "wrong": "古事",
+    "explanation": "「故」指故事、緣故;「古」是古代。"
+  },
+  {
+    "correct": "古代",
+    "wrong": "故代",
+    "explanation": "「古」指古代;「故」是緣故。"
+  },
+  {
+    "correct": "現在",
+    "wrong": "見在",
+    "explanation": "「現」是現在;「見」是看見。"
+  },
+  {
+    "correct": "看見",
+    "wrong": "看現",
+    "explanation": "「見」指看見;「現」是現在。"
+  },
+  {
+    "correct": "發現",
+    "wrong": "發見",
+    "explanation": "「發現」用「現」;「見」用於看見。"
+  },
+  {
+    "correct": "出現",
+    "wrong": "出見",
+    "explanation": "「出現」用「現」;「見」是看見。"
+  },
+  {
+    "correct": "晚安",
+    "wrong": "碗安",
+    "explanation": "「晚」指晚上;「碗」是吃飯的碗。"
+  },
+  {
+    "correct": "碗筷",
+    "wrong": "晚筷",
+    "explanation": "「碗」是吃飯的碗;「晚」是晚上。"
+  },
+  {
+    "correct": "中午",
+    "wrong": "中五",
+    "explanation": "「午」指中午;「五」是數字。"
+  },
+  {
+    "correct": "下午",
+    "wrong": "下五",
+    "explanation": "「午」指中午、下午;「五」是數字五。"
+  },
+  {
+    "correct": "早上",
+    "wrong": "棗上",
+    "explanation": "「早」指早上;「棗」是紅棗。"
+  },
+  {
+    "correct": "火車",
+    "wrong": "伙車",
+    "explanation": "「火車」用「火」;「伙」是同伴。"
+  },
+  {
+    "correct": "伙伴",
+    "wrong": "火伴",
+    "explanation": "「伙伴」用「伙」;「火」是火焰。"
+  },
+  {
+    "correct": "白天",
+    "wrong": "白添",
+    "explanation": "「天」是白天;「添」是增加。"
+  },
+  {
+    "correct": "添加",
+    "wrong": "天加",
+    "explanation": "「添」是增加;「天」是天空。"
+  },
+  {
+    "correct": "小心",
+    "wrong": "小辛",
+    "explanation": "「心」是小心、心情;「辛」是辛苦。"
+  },
+  {
+    "correct": "辛苦",
+    "wrong": "心苦",
+    "explanation": "「辛苦」用「辛」;「心」是心情。"
+  },
+  {
+    "correct": "心情",
+    "wrong": "辛情",
+    "explanation": "「心情」用「心」;「辛」是辛苦。"
+  },
+  {
+    "correct": "情緒",
+    "wrong": "請緒",
+    "explanation": "「情」指情緒;「請」是邀請。"
+  },
+  {
+    "correct": "邀請",
+    "wrong": "邀情",
+    "explanation": "「請」指邀請;「情」是情緒。"
+  },
+  {
+    "correct": "請客",
+    "wrong": "情客",
+    "explanation": "「請」是邀請;「情」是情感。"
+  },
+  {
+    "correct": "客人",
+    "wrong": "格人",
+    "explanation": "「客」是客人;「格」是格子、品格。"
+  },
+  {
+    "correct": "格子",
+    "wrong": "客子",
+    "explanation": "「格」是格子;「客」是客人。"
+  },
+  {
+    "correct": "品格",
+    "wrong": "品客",
+    "explanation": "「品格」用「格」;「客」是客人。"
+  },
+  {
+    "correct": "友誼",
+    "wrong": "友意",
+    "explanation": "「誼」是情誼;「意」是意思。"
+  },
+  {
+    "correct": "意思",
+    "wrong": "誼思",
+    "explanation": "「意」是意思;「誼」是情誼。"
+  },
+  {
+    "correct": "友情",
+    "wrong": "友晴",
+    "explanation": "「情」是友情;「晴」是晴天。"
+  },
+  {
+    "correct": "晴天",
+    "wrong": "情天",
+    "explanation": "「晴」指晴天;「情」是情感。"
+  },
+  {
+    "correct": "陰天",
+    "wrong": "音天",
+    "explanation": "「陰」指陰天;「音」是聲音。"
+  },
+  {
+    "correct": "聲音",
+    "wrong": "聲陰",
+    "explanation": "「音」是聲音;「陰」是陰天。"
+  },
+  {
+    "correct": "耳朵",
+    "wrong": "耳躲",
+    "explanation": "「朵」指花朵、耳朵;「躲」是躲藏。"
+  },
+  {
+    "correct": "躲藏",
+    "wrong": "朵藏",
+    "explanation": "「躲」是躲藏;「朵」是花朵、耳朵。"
+  },
+  {
+    "correct": "鼻子",
+    "wrong": "鼻孑",
+    "explanation": "「子」是常見字尾;「孑」非標準用法。"
+  },
+  {
+    "correct": "嘴巴",
+    "wrong": "口巴",
+    "explanation": "「嘴巴」用「嘴」是固定詞。"
+  },
+  {
+    "correct": "頭髮",
+    "wrong": "頭發",
+    "explanation": "在台灣國語,毛髮用「髮」;「發」是發出。"
+  },
+  {
+    "correct": "發明",
+    "wrong": "髮明",
+    "explanation": "「發明」用「發」;「髮」是頭髮。"
+  },
+  {
+    "correct": "姊妹",
+    "wrong": "姐妹",
+    "explanation": "台灣教育部標準用「姊妹」(「姊」音 ㄐㄧㄝˇ)。"
+  },
+  {
+    "correct": "哥哥",
+    "wrong": "哥可",
+    "explanation": "「哥哥」是疊字;「可」非疊字慣用。"
+  },
+  {
+    "correct": "弟弟",
+    "wrong": "第第",
+    "explanation": "「弟」是弟弟;「第」是第一、第二。"
+  },
+  {
+    "correct": "第一",
+    "wrong": "弟一",
+    "explanation": "「第」用於排序;「弟」是弟弟。"
+  },
+  {
+    "correct": "鉛筆",
+    "wrong": "鉛畢",
+    "explanation": "「筆」是筆;「畢」是畢業。"
+  },
+  {
+    "correct": "畢業",
+    "wrong": "筆業",
+    "explanation": "「畢」是畢業;「筆」是筆。"
+  },
+  {
+    "correct": "作業",
+    "wrong": "做業",
+    "explanation": "「作業」用「作」是固定詞。"
+  },
+  {
+    "correct": "上課",
+    "wrong": "上克",
+    "explanation": "「課」是課程;「克」是克制。"
+  },
+  {
+    "correct": "課本",
+    "wrong": "克本",
+    "explanation": "「課」是課程;「克」是克制。"
+  },
+  {
+    "correct": "國語",
+    "wrong": "國雨",
+    "explanation": "「語」是語言;「雨」是下雨。"
+  },
+  {
+    "correct": "下雨",
+    "wrong": "下語",
+    "explanation": "「雨」是下雨;「語」是語言。"
+  },
+  {
+    "correct": "數學",
+    "wrong": "數覺",
+    "explanation": "「學」是學科;「覺」是感覺。"
+  },
+  {
+    "correct": "自然",
+    "wrong": "自燃",
+    "explanation": "「自然」用「然」;「燃」是燃燒。"
+  },
+  {
+    "correct": "燃燒",
+    "wrong": "然燒",
+    "explanation": "「燃」是燃燒;「然」是這樣。"
+  },
+  {
+    "correct": "社會",
+    "wrong": "社匯",
+    "explanation": "「會」是會議、社會;「匯」是匯款。"
+  },
+  {
+    "correct": "匯款",
+    "wrong": "會款",
+    "explanation": "「匯」是匯款;「會」是會議。"
+  },
+  {
+    "correct": "美術",
+    "wrong": "美數",
+    "explanation": "「術」指美術、技術;「數」是數學。"
+  },
+  {
+    "correct": "技術",
+    "wrong": "技數",
+    "explanation": "「術」是技術;「數」是數字。"
+  },
+  {
+    "correct": "體育",
+    "wrong": "體愈",
+    "explanation": "「育」是教育、體育;「愈」是越來越。"
+  },
+  {
+    "correct": "教育",
+    "wrong": "教愈",
+    "explanation": "「育」是教育;「愈」是越來越。"
+  },
+  {
+    "correct": "愈來愈",
+    "wrong": "育來育",
+    "explanation": "「愈」是越來越;「育」是教育。"
+  },
+  {
+    "correct": "藥水",
+    "wrong": "樂水",
+    "explanation": "「藥」是藥物;「樂」是快樂。"
+  },
+  {
+    "correct": "汽車",
+    "wrong": "氣車",
+    "explanation": "「汽車」用「汽」(三點水);「氣」是空氣。"
+  },
+  {
+    "correct": "空氣",
+    "wrong": "空汽",
+    "explanation": "「氣」是空氣;「汽」是汽車。"
+  },
+  {
+    "correct": "地球",
+    "wrong": "地求",
+    "explanation": "「球」指球體、地球;「求」是請求。"
+  },
+  {
+    "correct": "請求",
+    "wrong": "請球",
+    "explanation": "「求」是請求;「球」是球體。"
+  },
+  {
+    "correct": "星星",
+    "wrong": "猩猩",
+    "explanation": "「星」是星星;「猩」是猩猩 (動物)。"
+  },
+  {
+    "correct": "月亮",
+    "wrong": "越亮",
+    "explanation": "「月」是月亮;「越」是越過。"
+  },
+  {
+    "correct": "太陽",
+    "wrong": "太楊",
+    "explanation": "「陽」是太陽;「楊」是姓氏、楊樹。"
+  },
+  {
+    "correct": "楊樹",
+    "wrong": "陽樹",
+    "explanation": "「楊」是樹名;「陽」是太陽。"
+  },
+  {
+    "correct": "花朵",
+    "wrong": "花躲",
+    "explanation": "「朵」指花朵;「躲」是躲藏。"
+  },
+  {
+    "correct": "樹葉",
+    "wrong": "樹頁",
+    "explanation": "「葉」是樹葉;「頁」是書頁。"
+  },
+  {
+    "correct": "書頁",
+    "wrong": "書葉",
+    "explanation": "「頁」指書頁;「葉」是樹葉。"
+  },
+  {
+    "correct": "水果",
+    "wrong": "水裹",
+    "explanation": "「果」是水果、結果;「裹」是包裹。"
+  },
+  {
+    "correct": "包裹",
+    "wrong": "包果",
+    "explanation": "「裹」是包裹;「果」是水果。"
+  },
+  {
+    "correct": "蘋果",
+    "wrong": "頻果",
+    "explanation": "「蘋」是蘋果;「頻」是頻率。"
+  },
+  {
+    "correct": "西瓜",
+    "wrong": "西爪",
+    "explanation": "「瓜」是西瓜;「爪」是爪子。"
+  },
+  {
+    "correct": "鳳梨",
+    "wrong": "風梨",
+    "explanation": "「鳳」是鳳凰、鳳梨;「風」是風雨。"
+  },
+  {
+    "correct": "風雨",
+    "wrong": "鳳雨",
+    "explanation": "「風」是風雨;「鳳」是鳳凰。"
+  },
+  {
+    "correct": "草地",
+    "wrong": "早地",
+    "explanation": "「草」是草地;「早」是早上。"
+  },
+  {
+    "correct": "早晨",
+    "wrong": "草晨",
+    "explanation": "「早」是早上;「草」是草地。"
+  },
+  {
+    "correct": "森林",
+    "wrong": "森琳",
+    "explanation": "「林」是樹林;「琳」是美玉,人名常見。"
+  },
+  {
+    "correct": "游泳",
+    "wrong": "游永",
+    "explanation": "「泳」是游泳;「永」是永遠。"
+  },
+  {
+    "correct": "永遠",
+    "wrong": "泳遠",
+    "explanation": "「永」是永遠;「泳」是游泳。"
+  },
+  {
+    "correct": "跑步",
+    "wrong": "跑布",
+    "explanation": "「步」是步伐;「布」是布料。"
+  },
+  {
+    "correct": "布料",
+    "wrong": "步料",
+    "explanation": "「布」是布料;「步」是步伐。"
+  },
+  {
+    "correct": "足球",
+    "wrong": "足求",
+    "explanation": "「球」是球;「求」是請求。"
+  },
+  {
+    "correct": "籃球",
+    "wrong": "藍球",
+    "explanation": "「籃」是籃子、籃球;「藍」是顏色。"
+  },
+  {
+    "correct": "藍色",
+    "wrong": "籃色",
+    "explanation": "「藍」是顏色;「籃」是籃子。"
+  },
+  {
+    "correct": "紅色",
+    "wrong": "虹色",
+    "explanation": "「紅」是紅色;「虹」是彩虹。"
+  },
+  {
+    "correct": "彩虹",
+    "wrong": "彩紅",
+    "explanation": "「虹」是彩虹;「紅」是紅色。"
+  },
+  {
+    "correct": "白色",
+    "wrong": "伯色",
+    "explanation": "「白」是白色;「伯」是伯伯。"
+  },
+  {
+    "correct": "黑色",
+    "wrong": "墨色",
+    "explanation": "國小階段用「黑」表示顏色;「墨」是墨汁。"
+  },
+  {
+    "correct": "墨汁",
+    "wrong": "黑汁",
+    "explanation": "「墨」是墨汁;「黑」是黑色。"
+  },
+  {
+    "correct": "動物園",
+    "wrong": "動勿園",
+    "explanation": "「物」是動物;「勿」是不要。"
+  },
+  {
+    "correct": "植物園",
+    "wrong": "值物園",
+    "explanation": "「植」是植物;「值」是價值。"
+  },
+  {
+    "correct": "公園",
+    "wrong": "公遠",
+    "explanation": "「園」是花園、公園;「遠」是遙遠。"
+  },
+  {
+    "correct": "遙遠",
+    "wrong": "遙園",
+    "explanation": "「遠」是遠;「園」是花園。"
+  },
+  {
+    "correct": "圖書館",
+    "wrong": "圖書管",
+    "explanation": "「館」是館舍;「管」是管理。"
+  },
+  {
+    "correct": "管理",
+    "wrong": "館理",
+    "explanation": "「管」是管理;「館」是館舍。"
+  },
+  {
+    "correct": "博物館",
+    "wrong": "博物管",
+    "explanation": "「館」是博物館;「管」是管理。"
+  },
+  {
+    "correct": "火災",
+    "wrong": "火栽",
+    "explanation": "「災」是災害;「栽」是栽種。"
+  },
+  {
+    "correct": "栽種",
+    "wrong": "災種",
+    "explanation": "「栽」是栽種;「災」是災害。"
+  },
+  {
+    "correct": "安全",
+    "wrong": "按全",
+    "explanation": "「安」是安全;「按」是按下。"
+  },
+  {
+    "correct": "按下",
+    "wrong": "安下",
+    "explanation": "「按」是按下;「安」是安全。"
+  },
+  {
+    "correct": "危險",
+    "wrong": "危檢",
+    "explanation": "「險」是危險;「檢」是檢查。"
+  },
+  {
+    "correct": "檢查",
+    "wrong": "險查",
+    "explanation": "「檢」是檢查;「險」是危險。"
+  },
+  {
+    "correct": "保護",
+    "wrong": "保獲",
+    "explanation": "「護」是保護;「獲」是獲得。"
+  },
+  {
+    "correct": "獲得",
+    "wrong": "護得",
+    "explanation": "「獲」是獲得;「護」是保護。"
+  },
+  {
+    "correct": "幫助",
+    "wrong": "幫主",
+    "explanation": "「助」是幫助;「主」是主人。"
+  },
+  {
+    "correct": "主人",
+    "wrong": "助人",
+    "explanation": "「主」是主人;「助」是幫助。"
+  },
+  {
+    "correct": "分享",
+    "wrong": "分想",
+    "explanation": "「享」是享受、分享;「想」是想法。"
+  },
+  {
+    "correct": "享受",
+    "wrong": "想受",
+    "explanation": "「享」是享受;「想」是想法。"
+  },
+  {
+    "correct": "禮物",
+    "wrong": "禮勿",
+    "explanation": "「物」是物品;「勿」是不要。"
+  },
+  {
+    "correct": "勿入",
+    "wrong": "物入",
+    "explanation": "「勿」是不要;「物」是物品。"
+  },
+  {
+    "correct": "願望",
+    "wrong": "原望",
+    "explanation": "「願」是願望;「原」是原本。"
+  },
+  {
+    "correct": "原本",
+    "wrong": "願本",
+    "explanation": "「原」是原本;「願」是願望。"
+  },
+  {
+    "correct": "希望",
+    "wrong": "稀望",
+    "explanation": "「希望」用「希」;「稀」是稀少。"
+  },
+  {
+    "correct": "稀少",
+    "wrong": "希少",
+    "explanation": "「稀」是稀少;「希」是希望。"
+  },
+  {
+    "correct": "夢境",
+    "wrong": "夢竟",
+    "explanation": "「境」是境界、環境;「竟」是竟然。"
+  },
+  {
+    "correct": "竟然",
+    "wrong": "境然",
+    "explanation": "「竟」是竟然;「境」是境界。"
+  },
+  {
+    "correct": "環境",
+    "wrong": "環竟",
+    "explanation": "「境」是環境;「竟」是竟然。"
+  },
+  {
+    "correct": "快速",
+    "wrong": "快數",
+    "explanation": "「速」是迅速;「數」是數字。"
+  },
+  {
+    "correct": "數字",
+    "wrong": "速字",
+    "explanation": "「數」是數字;「速」是速度。"
+  },
+  {
+    "correct": "速度",
+    "wrong": "數度",
+    "explanation": "「速」是速度;「數」是數量。"
+  },
+  {
+    "correct": "度過",
+    "wrong": "渡過",
+    "explanation": "度過時間用「度」;渡過河流用「渡」。"
+  },
+  {
+    "correct": "渡船",
+    "wrong": "度船",
+    "explanation": "「渡」是渡船 (三點水);「度」是程度。"
+  },
+  {
+    "correct": "程度",
+    "wrong": "程渡",
+    "explanation": "「度」是程度;「渡」是渡過水域。"
+  },
+  {
+    "correct": "豐富",
+    "wrong": "豐負",
+    "explanation": "「富」是富足;「負」是負擔。"
+  },
+  {
+    "correct": "負責",
+    "wrong": "富責",
+    "explanation": "「負」是負責;「富」是富足。"
+  },
+  {
+    "correct": "責任",
+    "wrong": "則任",
+    "explanation": "「責」是責任;「則」是規則。"
+  },
+  {
+    "correct": "規則",
+    "wrong": "規責",
+    "explanation": "「則」是規則;「責」是責任。"
+  },
+  {
+    "correct": "成績",
+    "wrong": "成積",
+    "explanation": "「績」是成績、業績;「積」是堆積、積分。"
+  },
+  {
+    "correct": "累積",
+    "wrong": "累績",
+    "explanation": "「積」是累積;「績」是成績。"
+  },
+  {
+    "correct": "利益",
+    "wrong": "力益",
+    "explanation": "「利」是利益;「力」是力量。"
+  },
+  {
+    "correct": "信心",
+    "wrong": "心信",
+    "explanation": "「信心」是固定詞,「信」在前。"
+  },
+  {
+    "correct": "信任",
+    "wrong": "信認",
+    "explanation": "「任」是信任;「認」是認識。"
+  },
+  {
+    "correct": "認識",
+    "wrong": "任識",
+    "explanation": "「認」是認識;「任」是任職。"
+  },
+  {
+    "correct": "知識",
+    "wrong": "知職",
+    "explanation": "「識」是知識;「職」是職業。"
+  },
+  {
+    "correct": "職業",
+    "wrong": "識業",
+    "explanation": "「職」是職業;「識」是知識。"
+  },
+  {
+    "correct": "專業",
+    "wrong": "傳業",
+    "explanation": "「專」是專業、專門;「傳」是傳遞。"
+  },
+  {
+    "correct": "傳統",
+    "wrong": "專統",
+    "explanation": "「傳」是傳統;「專」是專門。"
+  },
+  {
+    "correct": "傳遞",
+    "wrong": "專遞",
+    "explanation": "「傳」是傳遞;「專」是專門。"
+  },
+  {
+    "correct": "接受",
+    "wrong": "街受",
+    "explanation": "「接」是接受;「街」是街道。"
+  },
+  {
+    "correct": "街道",
+    "wrong": "接道",
+    "explanation": "「街」是街道;「接」是接受。"
+  },
+  {
+    "correct": "鄰居",
+    "wrong": "林居",
+    "explanation": "「鄰」是鄰居;「林」是樹林。"
+  }
+]

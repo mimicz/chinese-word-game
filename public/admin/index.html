@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>字字千金 — 管理後台</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+  <!-- 登入畫面 -->
+  <section class="screen active" id="screen-login">
+    <h1>字字千金 後台</h1>
+    <p class="hint">輸入管理密碼</p>
+    <form id="login-form">
+      <input type="password" id="password" autocomplete="current-password" placeholder="密碼" required>
+      <button type="submit">登入</button>
+    </form>
+    <p class="error" id="login-error"></p>
+  </section>
+
+  <!-- 主畫面 -->
+  <section class="screen" id="screen-main">
+    <header>
+      <h1>字字千金 後台</h1>
+      <div class="header-actions">
+        <span id="stats-summary" class="stats-summary"></span>
+        <button id="btn-refresh">↻ 重新整理</button>
+        <button id="btn-logout">登出</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="reports">回報 <span id="badge-reports" class="badge">0</span></button>
+      <button class="tab" data-tab="library">題庫總覽</button>
+      <button class="tab" data-tab="sample">題目預覽</button>
+    </nav>
+
+    <!-- Reports tab -->
+    <div class="tab-panel active" id="tab-reports">
+      <div class="filters">
+        <label>狀態
+          <select id="status-filter">
+            <option value="pending" selected>待處理</option>
+            <option value="resolved">已處理</option>
+            <option value="dismissed">已駁回</option>
+            <option value="all">全部</option>
+          </select>
+        </label>
+      </div>
+      <div id="reports-list" class="list"></div>
+    </div>
+
+    <!-- Library tab -->
+    <div class="tab-panel" id="tab-library">
+      <div id="library-list" class="list"></div>
+    </div>
+
+    <!-- Sample tab -->
+    <div class="tab-panel" id="tab-sample">
+      <div class="filters">
+        <label>題型
+          <select id="sample-type">
+            <option value="zizhu" selected>字字珠璣</option>
+            <option value="jiangcuo">將錯糾錯</option>
+          </select>
+        </label>
+        <label>難度
+          <select id="sample-difficulty">
+            <option value="middle" selected>國中以上</option>
+            <option value="elementary">國小以下</option>
+          </select>
+        </label>
+        <label>狀態
+          <select id="sample-active">
+            <option value="1" selected>上架</option>
+            <option value="0">下架</option>
+            <option value="all">全部</option>
+          </select>
+        </label>
+        <label>題數
+          <select id="sample-count">
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+        <button id="sample-refresh" class="btn-primary">🎲 隨機抽樣</button>
+      </div>
+      <div id="sample-list" class="list"></div>
+    </div>
+  </section>
+
+  <!-- 編輯題目 modal -->
+  <div class="modal-backdrop" id="edit-modal" hidden>
+    <div class="modal">
+      <button class="modal-close" id="edit-close">×</button>
+      <h3>編輯題目 #<span id="edit-qid"></span></h3>
+      <textarea id="edit-payload" rows="10" spellcheck="false"></textarea>
+      <p class="hint">JSON 格式。<br>jiangcuo: <code>{"correct":"…","wrong":"…","explanation":"…"}</code><br>zizhu: <code>{"hints":["…","…","…","…"],"answer":"…","position":"prefix|suffix","explanation":"…"}</code></p>
+      <div class="modal-actions">
+        <label class="checkbox"><input type="checkbox" id="edit-resolve-reports" checked> 同時把此題的待處理回報設為「已處理」</label>
+        <button id="edit-save" class="btn-primary">儲存</button>
+      </div>
+      <p class="error" id="edit-error"></p>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

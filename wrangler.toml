@@ -1,0 +1,12 @@
+name = "zi-zi-qian-jin"
+compatibility_date = "2026-05-23"
+pages_build_output_dir = "public"
+
+# D1 binding 給 Pages Functions 用
+# 部署前先執行:
+#   wrangler d1 create zzqj-db
+# 然後把回傳的 database_id 填到下面
+[[d1_databases]]
+binding = "DB"
+database_name = "zzqj-db"
+database_id = "7a94ba59-cdc5-4dda-92d2-492d90429c76"

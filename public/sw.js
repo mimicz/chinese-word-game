@@ -1,12 +1,14 @@
 // 字字千金 Service Worker
-// 採 cache-first 策略：靜態資源優先讀 cache，失敗才打網路
+// 靜態資源:cache-first
+// /api/*  :network-only (絕不快取後端動態資料)
 // 每次發版前需 bump CACHE_VERSION
-const CACHE_VERSION = 'zzqj-v2';
+const CACHE_VERSION = 'zzqj-v6';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './app.js',
+  './api.js',
   './register-sw.js',
   './data/jiangcuo.js',
   './data/zizhu.js',
@@ -37,6 +39,11 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
   if (url.origin !== self.location.origin) return;
+
+  // API 與 admin 頁:network-only,不進 cache
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/admin')) {
+    return; // 不攔截,瀏覽器走預設 fetch
+  }
 
   e.respondWith(
     caches.match(e.request).then(cached => {

@@ -17,7 +17,13 @@
 - **免註冊暱稱** — 輸入暱稱即可上排行榜
 - **全域排行榜 Top 50** — 每個 (題型 × 難度) 各有獨立榜單
 - **每題答完可回報題目有誤** — 系統會送進管理後台等待校對
-- **進階關卡時限調整** — 國中以上 × 字字珠璣 每題 3 分鐘 (其餘 15 秒)
+- **時限與計分**
+  - 關卡模式總分滿分皆為 **100 分**;單題上限 = `100 / 每關題數`
+  - 答對得分採剩餘時間線性計分:`round(剩餘時間 / 該題總時間 × 單題上限)`,答錯 / 超時 = 0 分
+  - 將錯糾錯:每題 15 秒、每關 10 題 (單題滿分 10 分)
+  - 字字珠璣:每關 5 題 (單題滿分 20 分)
+    - 國小以下每題 1 分鐘
+    - 國中以上每題 3 分鐘
 
 ## 題型
 
@@ -192,7 +198,7 @@ node scripts/json-to-sql.mjs
 zizhu (字字珠璣) 題目改採辭典基底 + LLM 語意篩選的管線:
 
 ```bash
-# 1. 列舉候選 (從 87,410 個辭典雙字詞)
+# 1. 列舉候選 (從 54,672 個辭典雙字詞)
 node scripts/generate-zizhu.mjs --enumerate --difficulty middle
 
 # 2. 提交 LLM rerank (Anthropic Message Batches API,~$5-8)
@@ -210,7 +216,8 @@ node scripts/json-to-sql.mjs    # 含辭典硬驗證,每組詞必須存在於 bi
 ./scripts/reseed-zizhu.sh remote
 ```
 
-辭典在 `schema/dict/bigram.txt`(來自教育部《重編國語辭典》),
+辭典在 `schema/dict/bigram.txt`(來自教育部《國語辭典簡編本》, 54,672 個雙字詞,
+透過 `scripts/build-concised-bigram.mjs` 從 g0v moedict-webkit 的 c.txt 抽取),
 候選字清單在 `schema/dict/answer-seeds-{elementary,middle}.txt`。
 
 ---
@@ -220,11 +227,11 @@ node scripts/json-to-sql.mjs    # 含辭典硬驗證,每組詞必須存在於 bi
 | 題型 | 國小以下 | 國中以上 |
 |---|---|---|
 | 將錯糾錯 | 227 題 | 225 題 |
-| 字字珠璣 | 80 題  | 132 題 |
+| 字字珠璣 | 49 題  | 96 題  |
 
-**共 664 題** (透過 admin 頁可繼續擴充或下架)。
+**共 597 題** (透過 admin 頁可繼續擴充或下架)。
 
-字字珠璣題庫以教育部《重編國語辭典》87,410 個雙字詞為基底,經 LLM 篩選只留下「共通字在 3 詞中意義不同」且 3 詞皆常用的高品質題目 — 寧缺勿濫。
+字字珠璣題庫以教育部《國語辭典簡編本》54,672 個雙字詞為基底,經 LLM 篩選只留下「共通字在 3 詞中意義不同」且 3 詞皆常用的高品質題目 — 寧缺勿濫。
 
 ---
 
@@ -242,5 +249,5 @@ node scripts/json-to-sql.mjs    # 含辭典硬驗證,每組詞必須存在於 bi
 ## 致謝
 
 - **公視《一字千金》節目** — 玩法靈感來源 (本專案非官方、無關聯,純致敬作品)
-- **教育部《重編國語辭典修訂本》** — 字義與寫法依據
+- **教育部《國語辭典簡編本》** — 字字珠璣題庫的雙字詞基底
 - **[qrcodejs](https://github.com/davidshimjs/qrcodejs)** — QR code 產生 (MIT License,© Sangmin Shim)

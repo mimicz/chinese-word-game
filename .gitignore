@@ -17,6 +17,7 @@
 schema/dict/.candidates/
 schema/dict/.rerank-cache.json
 schema/dict/.batch-state*.json
+schema/dict/.cache/
 
 # OS / 編輯器
 .DS_Store

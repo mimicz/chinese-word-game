@@ -2,7 +2,7 @@
 // 靜態資源:cache-first
 // /api/*  :network-only (絕不快取後端動態資料)
 // 每次發版前需 bump CACHE_VERSION
-const CACHE_VERSION = 'zzqj-v6';
+const CACHE_VERSION = 'zzqj-v9';
 const ASSETS = [
   './',
   './index.html',

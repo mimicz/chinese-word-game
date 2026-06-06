@@ -1,0 +1,1982 @@
+[
+  {
+    "hints": [
+      "地",
+      "外",
+      "神"
+    ],
+    "answer": "山",
+    "position": "prefix",
+    "explanation": "可組成:山地、山外、山神。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見且意思角色不同"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "法",
+      "火"
+    ],
+    "answer": "心",
+    "position": "prefix",
+    "explanation": "可組成:心上、心法、心火。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "心上、心法、心火意涵多元"
+    }
+  },
+  {
+    "hints": [
+      "口",
+      "法",
+      "情"
+    ],
+    "answer": "心",
+    "position": "prefix",
+    "explanation": "可組成:心口、心法、心情。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常見且心的語意差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "地",
+      "中",
+      "分"
+    ],
+    "answer": "心",
+    "position": "suffix",
+    "explanation": "可組成:地心、中心、分心。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "地心(地球核心)、中心(中央)、分心(注意力分散)意義迥異且皆常用"
+    }
+  },
+  {
+    "hints": [
+      "門",
+      "花",
+      "分"
+    ],
+    "answer": "神",
+    "position": "suffix",
+    "explanation": "可組成:門神、花神、分神。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "門神=守護神、花神=司花女神、分神=分心,意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "門",
+      "火",
+      "出"
+    ],
+    "answer": "神",
+    "position": "suffix",
+    "explanation": "可組成:門神、火神、出神。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "門神、火神為神祇,出神為失神狀態,語意多元"
+    }
+  },
+  {
+    "hints": [
+      "高",
+      "體",
+      "化"
+    ],
+    "answer": "氣",
+    "position": "prefix",
+    "explanation": "可組成:氣高、氣體、氣化。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見,氣指氣體、身體、變化各異"
+    }
+  },
+  {
+    "hints": [
+      "力",
+      "化",
+      "結"
+    ],
+    "answer": "氣",
+    "position": "prefix",
+    "explanation": "可組成:氣力、氣化、氣結。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,氣意義從力量、變化、鬱結有別"
+    }
+  },
+  {
+    "hints": [
+      "手",
+      "生",
+      "口"
+    ],
+    "answer": "氣",
+    "position": "suffix",
+    "explanation": "可組成:手氣、生氣、口氣。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "手氣=運氣、生氣=發怒/有活力、口氣=語氣,意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "口",
+      "火",
+      "光"
+    ],
+    "answer": "風",
+    "position": "prefix",
+    "explanation": "可組成:風口、風火、風光。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆熟悉且風意義差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "水",
+      "心",
+      "白"
+    ],
+    "answer": "清",
+    "position": "prefix",
+    "explanation": "可組成:清水、清心、清白。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見且意義有別"
+    }
+  },
+  {
+    "hints": [
+      "門",
+      "名",
+      "明"
+    ],
+    "answer": "清",
+    "position": "prefix",
+    "explanation": "可組成:清門、清名、清明。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見且意義多樣"
+    }
+  },
+  {
+    "hints": [
+      "冰",
+      "滿",
+      "冷"
+    ],
+    "answer": "清",
+    "position": "suffix",
+    "explanation": "可組成:冰清、滿清、冷清。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見,清字意義分別為純淨、朝代、冷寂"
+    }
+  },
+  {
+    "hints": [
+      "一",
+      "情",
+      "年"
+    ],
+    "answer": "節",
+    "position": "suffix",
+    "explanation": "可組成:一節、情節、年節。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "一節(量詞)、情節(故事)、年節(節日)意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "一",
+      "調",
+      "時"
+    ],
+    "answer": "節",
+    "position": "suffix",
+    "explanation": "可組成:一節、調節、時節。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "一節、調節、時節常用且意義分明"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "心",
+      "行"
+    ],
+    "answer": "頭",
+    "position": "suffix",
+    "explanation": "可組成:人頭、心頭、行頭。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "人頭=人數、心頭=內心、行頭=裝扮,意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "天",
+      "家",
+      "地"
+    ],
+    "answer": "道",
+    "position": "suffix",
+    "explanation": "可組成:天道、家道、地道。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見且道字意義不同"
+    }
+  },
+  {
+    "hints": [
+      "大",
+      "道",
+      "生"
+    ],
+    "answer": "理",
+    "position": "suffix",
+    "explanation": "可組成:大理、道理、生理。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "大理(地名)、道理、生理意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "不",
+      "打",
+      "生"
+    ],
+    "answer": "理",
+    "position": "suffix",
+    "explanation": "可組成:不理、打理、生理。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 10,
+      "rationale": "不理(理睬)、打理(處理)、生理(生命機能)意義皆不同"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "道",
+      "書"
+    ],
+    "answer": "行",
+    "position": "prefix",
+    "explanation": "可組成:行人、行道、行書。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見,行人(走路)、行道(街道/行業)、行書(字體)意義分歧"
+    }
+  },
+  {
+    "hints": [
+      "頭",
+      "道",
+      "家"
+    ],
+    "answer": "行",
+    "position": "prefix",
+    "explanation": "可組成:行頭、行道、行家。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "行頭、行道、行家三詞常見且意義不同"
+    }
+  },
+  {
+    "hints": [
+      "事",
+      "口",
+      "學"
+    ],
+    "answer": "業",
+    "position": "suffix",
+    "explanation": "可組成:事業、口業、學業。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常見,業義不同(事務、口造業、學習)"
+    }
+  },
+  {
+    "hints": [
+      "道",
+      "家",
+      "書"
+    ],
+    "answer": "法",
+    "position": "suffix",
+    "explanation": "可組成:道法、家法、書法。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "道法(道術)、家法(家規)、書法(藝術)語意差異大"
+    }
+  },
+  {
+    "hints": [
+      "家",
+      "文",
+      "公"
+    ],
+    "answer": "法",
+    "position": "suffix",
+    "explanation": "可組成:家法、文法、公法。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "家法、文法、公法分屬家庭、語言、法律,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "海",
+      "命",
+      "交"
+    ],
+    "answer": "性",
+    "position": "prefix",
+    "explanation": "可組成:性海、性命、性交。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "性命性交常用,性海有佛教義"
+    }
+  },
+  {
+    "hints": [
+      "調",
+      "報",
+      "理"
+    ],
+    "answer": "情",
+    "position": "prefix",
+    "explanation": "可組成:情調、情報、情理。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "情調、情報、情理分屬氛圍、資訊、道理,語意差異大"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "行",
+      "風"
+    ],
+    "answer": "情",
+    "position": "suffix",
+    "explanation": "可組成:人情、行情、風情。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "人情、行情、風情皆常用且意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "動",
+      "好",
+      "骨"
+    ],
+    "answer": "感",
+    "position": "suffix",
+    "explanation": "可組成:動感、好感、骨感。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "動感、好感、骨感分別指動態、好印象、身材,差異大"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "法",
+      "火"
+    ],
+    "answer": "文",
+    "position": "prefix",
+    "explanation": "可組成:文人、文法、文火。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "文人(人)、文法(語法)、文火(柔和)意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "風",
+      "官",
+      "火"
+    ],
+    "answer": "文",
+    "position": "prefix",
+    "explanation": "可組成:文風、文官、文火。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "文風文官文火涵蓋風格、官職、火候"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "中",
+      "分"
+    ],
+    "answer": "文",
+    "position": "suffix",
+    "explanation": "可組成:上文、中文、分文。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "上文=前述、中文=語言、分文=錢,意涵差異大"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "法",
+      "一"
+    ],
+    "answer": "文",
+    "position": "suffix",
+    "explanation": "可組成:上文、法文、一文。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "上文=前述、法文=語言、一文=錢,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "氣",
+      "天"
+    ],
+    "answer": "體",
+    "position": "suffix",
+    "explanation": "可組成:人體、氣體、天體。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "人體(身體)、氣體(物質狀態)、天體(天文物體)三義明顯不同"
+    }
+  },
+  {
+    "hints": [
+      "書",
+      "一",
+      "文"
+    ],
+    "answer": "體",
+    "position": "suffix",
+    "explanation": "可組成:書體、一體、文體。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "書體、一體、文體分指書寫風格、整體、文章樣式,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "光",
+      "力",
+      "語"
+    ],
+    "answer": "用",
+    "position": "prefix",
+    "explanation": "可組成:用光、用力、用語。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "用光耗盡、用力施力、用語措辭,差異大"
+    }
+  },
+  {
+    "hints": [
+      "情",
+      "外",
+      "方"
+    ],
+    "answer": "形",
+    "position": "suffix",
+    "explanation": "可組成:情形、外形、方形。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "情形=狀況、外形=外觀、方形=形狀,三者意義差異明顯且常用"
+    }
+  },
+  {
+    "hints": [
+      "行",
+      "天",
+      "白"
+    ],
+    "answer": "色",
+    "position": "suffix",
+    "explanation": "可組成:行色、天色、白色。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "行色(神情)、天色(光線)、白色(顏色),三種意義明確不同"
+    }
+  },
+  {
+    "hints": [
+      "一",
+      "出",
+      "國"
+    ],
+    "answer": "色",
+    "position": "suffix",
+    "explanation": "可組成:一色、出色、國色。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "一色(同樣)、出色(優秀)、國色(絕美),意義差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "學",
+      "色",
+      "言"
+    ],
+    "answer": "聲",
+    "position": "prefix",
+    "explanation": "可組成:聲學、聲色、聲言。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,聲學為學科、聲色為神情、聲言為宣稱"
+    }
+  },
+  {
+    "hints": [
+      "官",
+      "名",
+      "出"
+    ],
+    "answer": "聲",
+    "position": "suffix",
+    "explanation": "可組成:官聲、名聲、出聲。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "官聲名譽、名聲聲望、出聲動作,意義多元"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "名",
+      "相"
+    ],
+    "answer": "聲",
+    "position": "suffix",
+    "explanation": "可組成:上聲、名聲、相聲。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "上聲聲調、名聲聲望、相聲曲藝,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "海",
+      "山",
+      "酒"
+    ],
+    "answer": "火",
+    "position": "prefix",
+    "explanation": "可組成:火海、火山、火酒。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "火海(比喻)、火山(地理)、火酒(物質)意思分明"
+    }
+  },
+  {
+    "hints": [
+      "車",
+      "光",
+      "酒"
+    ],
+    "answer": "火",
+    "position": "prefix",
+    "explanation": "可組成:火車、火光、火酒。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "火車、火光、火酒皆常見且意義不同"
+    }
+  },
+  {
+    "hints": [
+      "口",
+      "開",
+      "出"
+    ],
+    "answer": "水",
+    "position": "suffix",
+    "explanation": "可組成:口水、開水、出水。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "口水唾液、開水煮沸水、出水流出,皆常用且意思有別"
+    }
+  },
+  {
+    "hints": [
+      "重",
+      "合",
+      "黃"
+    ],
+    "answer": "金",
+    "position": "suffix",
+    "explanation": "可組成:重金、合金、黃金。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "重金、合金、黃金皆常見,意義各異"
+    }
+  },
+  {
+    "hints": [
+      "子",
+      "氣",
+      "下"
+    ],
+    "answer": "天",
+    "position": "prefix",
+    "explanation": "可組成:天子、天氣、天下。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "天子=君王、天氣=氣象、天下=世界,皆常用且語意分散"
+    }
+  },
+  {
+    "hints": [
+      "門",
+      "花",
+      "然"
+    ],
+    "answer": "天",
+    "position": "prefix",
+    "explanation": "可組成:天門、天花、天然。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "天門=身體/地理、天花=疾病、天然=自然,差異大"
+    }
+  },
+  {
+    "hints": [
+      "一",
+      "老",
+      "明"
+    ],
+    "answer": "天",
+    "position": "suffix",
+    "explanation": "可組成:一天、老天、明天。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "一天、老天、明天皆常用且天的意涵不同"
+    }
+  },
+  {
+    "hints": [
+      "方",
+      "主",
+      "力"
+    ],
+    "answer": "地",
+    "position": "prefix",
+    "explanation": "可組成:地方、地主、地力。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "地方、地主、地力皆常見,意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "主",
+      "動",
+      "點"
+    ],
+    "answer": "地",
+    "position": "prefix",
+    "explanation": "可組成:地主、地動、地點。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "地主、地動、地點皆常見且意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "道",
+      "家",
+      "生"
+    ],
+    "answer": "人",
+    "position": "prefix",
+    "explanation": "可組成:人道、人家、人生。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆熟悉,人指道德/家戶/人生主體"
+    }
+  },
+  {
+    "hints": [
+      "生",
+      "事",
+      "口"
+    ],
+    "answer": "人",
+    "position": "prefix",
+    "explanation": "可組成:人生、人事、人口。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆極常用,語意涵蓋人生/事務/人口"
+    }
+  },
+  {
+    "hints": [
+      "機",
+      "實",
+      "前"
+    ],
+    "answer": "事",
+    "position": "prefix",
+    "explanation": "可組成:事機、事實、事前。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,事機(機會)、事實、事前語意各異"
+    }
+  },
+  {
+    "hints": [
+      "業",
+      "實",
+      "變"
+    ],
+    "answer": "事",
+    "position": "prefix",
+    "explanation": "可組成:事業、事實、事變。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "事業、事實、事變皆常見且意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "家",
+      "小",
+      "法"
+    ],
+    "answer": "事",
+    "position": "suffix",
+    "explanation": "可組成:家事、小事、法事。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "家事、小事、法事三類事務迥異,皆熟詞"
+    }
+  },
+  {
+    "hints": [
+      "生",
+      "法",
+      "公"
+    ],
+    "answer": "事",
+    "position": "suffix",
+    "explanation": "可組成:生事、法事、公事。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "生事=惹事、法事=宗教儀式、公事=公務,差異顯著"
+    }
+  },
+  {
+    "hints": [
+      "子",
+      "白",
+      "門"
+    ],
+    "answer": "空",
+    "position": "prefix",
+    "explanation": "可組成:空子、空白、空門。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "空子漏洞、空白未填、空門佛門,語義差異大"
+    }
+  },
+  {
+    "hints": [
+      "地",
+      "中",
+      "名"
+    ],
+    "answer": "空",
+    "position": "prefix",
+    "explanation": "可組成:空地、空中、空名。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "空地具體、空中方位、空名虛稱,語義差異佳"
+    }
+  },
+  {
+    "hints": [
+      "不",
+      "事",
+      "名"
+    ],
+    "answer": "實",
+    "position": "suffix",
+    "explanation": "可組成:不實、事實、名實。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "不實、事實、名實皆常用,意義各異"
+    }
+  },
+  {
+    "hints": [
+      "言",
+      "正",
+      "主"
+    ],
+    "answer": "真",
+    "position": "prefix",
+    "explanation": "可組成:真言、真正、真主。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "真言真正真主語意角色不同"
+    }
+  },
+  {
+    "hints": [
+      "手",
+      "名",
+      "日"
+    ],
+    "answer": "假",
+    "position": "prefix",
+    "explanation": "可組成:假手、假名、假日。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "假手(借助)、假名、假日皆常用且意義差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "手",
+      "山",
+      "聲"
+    ],
+    "answer": "假",
+    "position": "prefix",
+    "explanation": "可組成:假手、假山、假聲。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "假手、假山、假聲皆熟悉,意義有差異"
+    }
+  },
+  {
+    "hints": [
+      "情",
+      "身",
+      "工"
+    ],
+    "answer": "動",
+    "position": "prefix",
+    "explanation": "可組成:動情、動身、動工。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "動情、動身、動工三者意義差異大且都常用"
+    }
+  },
+  {
+    "hints": [
+      "情",
+      "兵",
+      "力"
+    ],
+    "answer": "動",
+    "position": "prefix",
+    "explanation": "可組成:動情、動兵、動力。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "動情情感、動兵軍事、動力力量,語意各異"
+    }
+  },
+  {
+    "hints": [
+      "心",
+      "打",
+      "生"
+    ],
+    "answer": "動",
+    "position": "suffix",
+    "explanation": "可組成:心動、打動、生動。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "心動(情感觸動)、打動(感動他人)、生動(活潑)三者意義各異"
+    }
+  },
+  {
+    "hints": [
+      "開",
+      "出",
+      "流"
+    ],
+    "answer": "動",
+    "position": "suffix",
+    "explanation": "可組成:開動、出動、流動。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "開動(啟動)、出動(派出)、流動(移動)三者語意分明"
+    }
+  },
+  {
+    "hints": [
+      "水",
+      "物",
+      "坐"
+    ],
+    "answer": "靜",
+    "position": "prefix",
+    "explanation": "可組成:靜水、靜物、靜坐。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見且語意分散"
+    }
+  },
+  {
+    "hints": [
+      "不",
+      "天",
+      "分"
+    ],
+    "answer": "明",
+    "position": "suffix",
+    "explanation": "可組成:不明、天明、分明。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "不明、天明、分明都常用且明字意義不同"
+    }
+  },
+  {
+    "hints": [
+      "房",
+      "自",
+      "香"
+    ],
+    "answer": "暗",
+    "position": "prefix",
+    "explanation": "可組成:暗房、暗自、暗香。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "暗房場所、暗自副詞、暗香比喻,差異極大"
+    }
+  },
+  {
+    "hints": [
+      "道",
+      "地",
+      "流"
+    ],
+    "answer": "暗",
+    "position": "prefix",
+    "explanation": "可組成:暗道、暗地、暗流。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "暗道、暗地、暗流三詞常見且語意層次分明"
+    }
+  },
+  {
+    "hints": [
+      "花",
+      "道",
+      "發"
+    ],
+    "answer": "開",
+    "position": "prefix",
+    "explanation": "可組成:開花、開道、開發。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "開花=綻放、開道=引路、開發=發展,語意差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "花",
+      "口",
+      "火"
+    ],
+    "answer": "開",
+    "position": "prefix",
+    "explanation": "可組成:開花、開口、開火。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 10,
+      "rationale": "開花、開口、開火三詞常用且意義各異"
+    }
+  },
+  {
+    "hints": [
+      "行",
+      "發",
+      "口"
+    ],
+    "answer": "進",
+    "position": "prefix",
+    "explanation": "可組成:進行、進發、進口。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "進行抽象、進發出發、進口指入口或輸入,意義多元"
+    }
+  },
+  {
+    "hints": [
+      "出",
+      "色",
+      "房"
+    ],
+    "answer": "退",
+    "position": "prefix",
+    "explanation": "可組成:退出、退色、退房。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,退義各異"
+    }
+  },
+  {
+    "hints": [
+      "火",
+      "兵",
+      "房"
+    ],
+    "answer": "退",
+    "position": "prefix",
+    "explanation": "可組成:退火、退兵、退房。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,退義多元"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "門",
+      "花"
+    ],
+    "answer": "生",
+    "position": "suffix",
+    "explanation": "可組成:人生、門生、花生。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "人生(生命)、門生(學生)、花生(植物),意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "書",
+      "小",
+      "一"
+    ],
+    "answer": "生",
+    "position": "suffix",
+    "explanation": "可組成:書生、小生、一生。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "書生(讀書人)、小生(角色)、一生(一輩子),意義各異"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "水",
+      "心"
+    ],
+    "answer": "死",
+    "position": "prefix",
+    "explanation": "可組成:死人、死水、死心。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "死人指屍體、死水指停滯之水、死心指放棄念頭,三者語意差異大"
+    }
+  },
+  {
+    "hints": [
+      "相",
+      "命",
+      "神"
+    ],
+    "answer": "死",
+    "position": "prefix",
+    "explanation": "可組成:死相、死命、死神。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "死相罵人、死命拼命、死神角色,三者意義差異大"
+    }
+  },
+  {
+    "hints": [
+      "水",
+      "花",
+      "地"
+    ],
+    "answer": "落",
+    "position": "prefix",
+    "explanation": "可組成:落水、落花、落地。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "落水、落花、落地皆常見,意義各異"
+    }
+  },
+  {
+    "hints": [
+      "年",
+      "意",
+      "路"
+    ],
+    "answer": "來",
+    "position": "prefix",
+    "explanation": "可組成:來年、來意、來路。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "來年時間、來意意圖、來路出處,差異大"
+    }
+  },
+  {
+    "hints": [
+      "日",
+      "意",
+      "客"
+    ],
+    "answer": "來",
+    "position": "prefix",
+    "explanation": "可組成:來日、來意、來客。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常見且意義分明"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "老",
+      "年"
+    ],
+    "answer": "來",
+    "position": "suffix",
+    "explanation": "可組成:上來、老來、年來。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "上來方向、老來時段、年來時間,意義多元"
+    }
+  },
+  {
+    "hints": [
+      "一",
+      "老",
+      "外"
+    ],
+    "answer": "來",
+    "position": "suffix",
+    "explanation": "可組成:一來、老來、外來。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "一來連接、老來年老、外來來源,差異大"
+    }
+  },
+  {
+    "hints": [
+      "道",
+      "文",
+      "名"
+    ],
+    "answer": "正",
+    "position": "prefix",
+    "explanation": "可組成:正道、正文、正名。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見,正字表正當、本文、本名,差異佳"
+    }
+  },
+  {
+    "hints": [
+      "子",
+      "然",
+      "道"
+    ],
+    "answer": "公",
+    "position": "prefix",
+    "explanation": "可組成:公子、公然、公道。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,公分別表貴族、公開、公平"
+    }
+  },
+  {
+    "hints": [
+      "國",
+      "相",
+      "老"
+    ],
+    "answer": "公",
+    "position": "suffix",
+    "explanation": "可組成:國公、相公、老公。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "國公=爵位、相公=丈夫/官員、老公=丈夫,語義有別"
+    }
+  },
+  {
+    "hints": [
+      "法",
+      "房",
+      "自"
+    ],
+    "answer": "私",
+    "position": "prefix",
+    "explanation": "可組成:私法、私房、私自。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "私法私房私自詞性語意皆不同"
+    }
+  },
+  {
+    "hints": [
+      "文",
+      "出",
+      "明"
+    ],
+    "answer": "言",
+    "position": "suffix",
+    "explanation": "可組成:文言、出言、明言。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "文言指文體、出言指說話、明言指明白說,差異大"
+    }
+  },
+  {
+    "hints": [
+      "名",
+      "出",
+      "流"
+    ],
+    "answer": "言",
+    "position": "suffix",
+    "explanation": "可組成:名言、出言、流言。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "名言、出言、流言皆常用且意義各異"
+    }
+  },
+  {
+    "hints": [
+      "照",
+      "守",
+      "思"
+    ],
+    "answer": "舊",
+    "position": "suffix",
+    "explanation": "可組成:照舊、守舊、思舊。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見且舊義各異:照舊=如前、守舊=保守、思舊=懷念"
+    }
+  },
+  {
+    "hints": [
+      "不",
+      "中",
+      "分"
+    ],
+    "answer": "外",
+    "position": "suffix",
+    "explanation": "可組成:不外、中外、分外。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆常用,外字語意有別(除此之外/內外/格外)"
+    }
+  },
+  {
+    "hints": [
+      "法",
+      "開",
+      "出"
+    ],
+    "answer": "外",
+    "position": "suffix",
+    "explanation": "可組成:法外、開外、出外。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,法外/開外/出外語意各異"
+    }
+  },
+  {
+    "hints": [
+      "流",
+      "三",
+      "神"
+    ],
+    "answer": "通",
+    "position": "suffix",
+    "explanation": "可組成:流通、三通、神通。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "流通=流動、三通=三項通、神通=能力,語意多元"
+    }
+  },
+  {
+    "hints": [
+      "流",
+      "清",
+      "交"
+    ],
+    "answer": "通",
+    "position": "suffix",
+    "explanation": "可組成:流通、清通、交通。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "流通、清通、交通皆常見且意義有別"
+    }
+  },
+  {
+    "hints": [
+      "明",
+      "轉",
+      "直"
+    ],
+    "answer": "達",
+    "position": "suffix",
+    "explanation": "可組成:明達、轉達、直達。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,意義各異"
+    }
+  },
+  {
+    "hints": [
+      "通",
+      "和",
+      "歸"
+    ],
+    "answer": "順",
+    "position": "suffix",
+    "explanation": "可組成:通順、和順、歸順。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "通順=流暢、和順=溫和、歸順=投降,意義多元"
+    }
+  },
+  {
+    "hints": [
+      "門",
+      "手",
+      "地"
+    ],
+    "answer": "高",
+    "position": "prefix",
+    "explanation": "可組成:高門、高手、高地。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "高門地位、高手能力、高地地形,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "手",
+      "官",
+      "中"
+    ],
+    "answer": "高",
+    "position": "prefix",
+    "explanation": "可組成:高手、高官、高中。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "高手、高官、高中皆常見且意義不同"
+    }
+  },
+  {
+    "hints": [
+      "頭",
+      "地",
+      "落"
+    ],
+    "answer": "低",
+    "position": "prefix",
+    "explanation": "可組成:低頭、低地、低落。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "低頭(動作)、低地(地形)、低落(情緒)三義分明"
+    }
+  },
+  {
+    "hints": [
+      "長",
+      "情",
+      "重"
+    ],
+    "answer": "深",
+    "position": "prefix",
+    "explanation": "可組成:深長、深情、深重。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常用且深各表程度、情感、嚴重"
+    }
+  },
+  {
+    "hints": [
+      "功",
+      "資",
+      "幽"
+    ],
+    "answer": "深",
+    "position": "suffix",
+    "explanation": "可組成:功深、資深、幽深。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見且語意角色不同"
+    }
+  },
+  {
+    "hints": [
+      "景",
+      "加",
+      "幽"
+    ],
+    "answer": "深",
+    "position": "suffix",
+    "explanation": "可組成:景深、加深、幽深。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常用,意義差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "不",
+      "自",
+      "體"
+    ],
+    "answer": "重",
+    "position": "suffix",
+    "explanation": "可組成:不重、自重、體重。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆常見,重的意思分別為再次、看重、重量,差異大"
+    }
+  },
+  {
+    "hints": [
+      "風",
+      "生",
+      "重"
+    ],
+    "answer": "輕",
+    "position": "prefix",
+    "explanation": "可組成:輕風、輕生、輕重。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常見,輕風自然、輕生比喻、輕重抽象"
+    }
+  },
+  {
+    "hints": [
+      "年",
+      "量",
+      "看"
+    ],
+    "answer": "輕",
+    "position": "suffix",
+    "explanation": "可組成:年輕、量輕、看輕。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "年輕、量輕、看輕皆常見,且分別表年齡、重量、態度"
+    }
+  },
+  {
+    "hints": [
+      "中",
+      "車",
+      "情"
+    ],
+    "answer": "熱",
+    "position": "prefix",
+    "explanation": "可組成:熱中、熱車、熱情。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "熱中(沉迷)、熱車(暖車動作)、熱情(感情)語意差異大"
+    }
+  },
+  {
+    "hints": [
+      "火",
+      "情",
+      "學"
+    ],
+    "answer": "熱",
+    "position": "prefix",
+    "explanation": "可組成:熱火、熱情、熱學。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "熱火(熱烈)、熱情(情感)、熱學(學科)語意分歧"
+    }
+  },
+  {
+    "hints": [
+      "水",
+      "氣",
+      "門"
+    ],
+    "answer": "冷",
+    "position": "prefix",
+    "explanation": "可組成:冷水、冷氣、冷門。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "皆常用,冷水實物、冷氣設備、冷門比喻意義多元"
+    }
+  },
+  {
+    "hints": [
+      "玉",
+      "性",
+      "好"
+    ],
+    "answer": "剛",
+    "position": "prefix",
+    "explanation": "可組成:剛玉、剛性、剛好。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "剛玉礦物、剛性物理、剛好副詞,語義差異大"
+    }
+  },
+  {
+    "hints": [
+      "從",
+      "優",
+      "溫"
+    ],
+    "answer": "良",
+    "position": "suffix",
+    "explanation": "可組成:從良、優良、溫良。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常用,從良意義與優良、溫良差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "白",
+      "花",
+      "光"
+    ],
+    "answer": "眼",
+    "position": "prefix",
+    "explanation": "可組成:眼白、眼花、眼光。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "眼白生理、眼花狀態、眼光抽象,差異佳"
+    }
+  },
+  {
+    "hints": [
+      "下",
+      "生",
+      "光"
+    ],
+    "answer": "眼",
+    "position": "prefix",
+    "explanation": "可組成:眼下、眼生、眼光。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "眼下時間、眼生陌生、眼光見識,差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "名",
+      "出"
+    ],
+    "answer": "手",
+    "position": "suffix",
+    "explanation": "可組成:上手、名手、出手。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "上手(熟練)、名手(高手)、出手(動作)意義各異"
+    }
+  },
+  {
+    "hints": [
+      "分",
+      "一",
+      "出"
+    ],
+    "answer": "手",
+    "position": "suffix",
+    "explanation": "可組成:分手、一手、出手。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "分手(離別)、一手(獨自)、出手(動作)皆常用且義異"
+    }
+  },
+  {
+    "hints": [
+      "頭",
+      "書",
+      "上"
+    ],
+    "answer": "香",
+    "position": "suffix",
+    "explanation": "可組成:頭香、書香、上香。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "頭香、書香(讀書氛圍)、上香(動作)語法與意義皆異"
+    }
+  },
+  {
+    "hints": [
+      "行",
+      "酒",
+      "學"
+    ],
+    "answer": "品",
+    "position": "prefix",
+    "explanation": "可組成:品行、品酒、品學。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞皆常見,品分別表道德、品嚐、品評"
+    }
+  },
+  {
+    "hints": [
+      "人",
+      "上",
+      "小"
+    ],
+    "answer": "品",
+    "position": "suffix",
+    "explanation": "可組成:人品、上品、小品。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,品德、等級、文體三義"
+    }
+  },
+  {
+    "hints": [
+      "風",
+      "門",
+      "道"
+    ],
+    "answer": "家",
+    "position": "prefix",
+    "explanation": "可組成:家風、家門、家道。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆常用且家的意涵略有差異"
+    }
+  },
+  {
+    "hints": [
+      "書",
+      "小",
+      "法"
+    ],
+    "answer": "家",
+    "position": "prefix",
+    "explanation": "可組成:家書、家小、家法。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "皆為常見詞,家的指涉各異"
+    }
+  },
+  {
+    "hints": [
+      "國",
+      "正",
+      "命"
+    ],
+    "answer": "中",
+    "position": "suffix",
+    "explanation": "可組成:國中、正中、命中。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "國中=學校、正中=正當中、命中=擊中,三義皆不同"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "車",
+      "學"
+    ],
+    "answer": "位",
+    "position": "suffix",
+    "explanation": "可組成:上位、車位、學位。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 9,
+      "rationale": "三詞極常見,語義差異極大"
+    }
+  },
+  {
+    "hints": [
+      "上",
+      "本",
+      "方"
+    ],
+    "answer": "位",
+    "position": "suffix",
+    "explanation": "可組成:上位、本位、方位。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,語義差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "法",
+      "面",
+      "明"
+    ],
+    "answer": "方",
+    "position": "prefix",
+    "explanation": "可組成:方法、方面、方明。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "方法、方面、方明皆為常見熟詞,意思各異"
+    }
+  },
+  {
+    "hints": [
+      "下",
+      "法",
+      "國"
+    ],
+    "answer": "立",
+    "position": "prefix",
+    "explanation": "可組成:立下、立法、立國。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "立下表完成、立法立國具體建立行為差異明顯"
+    }
+  },
+  {
+    "hints": [
+      "國",
+      "成",
+      "對"
+    ],
+    "answer": "立",
+    "position": "suffix",
+    "explanation": "可組成:國立、成立、對立。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "國立=設立、成立=構成、對立=相對,意義多元且常用"
+    }
+  },
+  {
+    "hints": [
+      "玉",
+      "對",
+      "起"
+    ],
+    "answer": "立",
+    "position": "suffix",
+    "explanation": "可組成:玉立、對立、起立。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "玉立、對立、起立意義差異大且常見"
+    }
+  },
+  {
+    "hints": [
+      "文",
+      "開",
+      "老"
+    ],
+    "answer": "化",
+    "position": "suffix",
+    "explanation": "可組成:文化、開化、老化。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "文化、開化、老化皆常用且語意不同"
+    }
+  },
+  {
+    "hints": [
+      "火",
+      "兒",
+      "老"
+    ],
+    "answer": "化",
+    "position": "suffix",
+    "explanation": "可組成:火化、兒化、老化。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "火化、兒化、老化三詞語法意義皆不同"
+    }
+  },
+  {
+    "hints": [
+      "法",
+      "色",
+      "外"
+    ],
+    "answer": "界",
+    "position": "suffix",
+    "explanation": "可組成:法界、色界、外界。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "法界(佛教)、色界(佛教)、外界三義差異大"
+    }
+  },
+  {
+    "hints": [
+      "法",
+      "眼",
+      "三"
+    ],
+    "answer": "界",
+    "position": "suffix",
+    "explanation": "可組成:法界、眼界、三界。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "法界、眼界、三界三種界含義不同"
+    }
+  },
+  {
+    "hints": [
+      "子",
+      "行",
+      "手"
+    ],
+    "answer": "分",
+    "position": "prefix",
+    "explanation": "可組成:分子、分行、分手。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "分子、分行(銀行單位)、分手(離別),語意角色差異明顯"
+    }
+  }
+]

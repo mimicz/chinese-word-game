@@ -1,0 +1,565 @@
+[
+  {
+    "hints": [
+      "海",
+      "山",
+      "酒"
+    ],
+    "answer": "火",
+    "position": "prefix",
+    "explanation": "可組成:火海、火山、火酒。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "火海(比喻)、火山(地理)、火酒(物質)語意分明"
+    },
+    "_missing": [
+      "火酒"
+    ]
+  },
+  {
+    "hints": [
+      "車",
+      "光",
+      "酒"
+    ],
+    "answer": "火",
+    "position": "prefix",
+    "explanation": "可組成:火車、火光、火酒。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "三詞常用,交通工具、光線、酒類語意各異"
+    },
+    "_missing": [
+      "火酒"
+    ]
+  },
+  {
+    "hints": [
+      "國",
+      "老",
+      "光"
+    ],
+    "answer": "大",
+    "position": "suffix",
+    "explanation": "可組成:國大、老大、光大。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "國大機構、老大稱呼、光大發揚,意義差異大"
+    },
+    "_missing": [
+      "國大"
+    ]
+  },
+  {
+    "hints": [
+      "口",
+      "火",
+      "學"
+    ],
+    "answer": "心",
+    "position": "prefix",
+    "explanation": "可組成:心口、心火、心學。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "心口部位、心火情緒、心學學派,角色各異"
+    },
+    "_missing": [
+      "心火"
+    ]
+  },
+  {
+    "hints": [
+      "上",
+      "法",
+      "火"
+    ],
+    "answer": "心",
+    "position": "prefix",
+    "explanation": "可組成:心上、心法、心火。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "心上=內心、心法=方法、心火=情緒,差異大"
+    },
+    "_missing": [
+      "心上",
+      "心法",
+      "心火"
+    ]
+  },
+  {
+    "hints": [
+      "口",
+      "火",
+      "光"
+    ],
+    "answer": "風",
+    "position": "prefix",
+    "explanation": "可組成:風口、風火、風光。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞常見,風口=地點、風火=急促、風光=景色,語意多元"
+    },
+    "_missing": [
+      "風火"
+    ]
+  },
+  {
+    "hints": [
+      "門",
+      "花",
+      "然"
+    ],
+    "answer": "天",
+    "position": "prefix",
+    "explanation": "可組成:天門、天花、天然。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "天門(身體穴位/地名)、天花(疾病/裝潢)、天然(自然),語義差異大"
+    },
+    "_missing": [
+      "天門"
+    ]
+  },
+  {
+    "hints": [
+      "飛",
+      "星",
+      "青"
+    ],
+    "answer": "雲",
+    "position": "suffix",
+    "explanation": "可組成:飛雲、星雲、青雲。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "星雲(天文)、青雲(高位)、飛雲(實雲)差異大"
+    },
+    "_missing": [
+      "飛雲"
+    ]
+  },
+  {
+    "hints": [
+      "出",
+      "相",
+      "老"
+    ],
+    "answer": "月",
+    "position": "prefix",
+    "explanation": "可組成:月出、月相、月老。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "月出天文、月相天文、月老神祇差異大"
+    },
+    "_missing": [
+      "月出"
+    ]
+  },
+  {
+    "hints": [
+      "老",
+      "面",
+      "色"
+    ],
+    "answer": "月",
+    "position": "prefix",
+    "explanation": "可組成:月老、月面、月色。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "月老為神祇,月面、月色為天文"
+    },
+    "_missing": [
+      "月面"
+    ]
+  },
+  {
+    "hints": [
+      "頭",
+      "心",
+      "行"
+    ],
+    "answer": "路",
+    "position": "suffix",
+    "explanation": "可組成:頭路、心路、行路。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "頭路(工作)、心路(心境)、行路(行走)三義差異大"
+    },
+    "_missing": [
+      "心路"
+    ]
+  },
+  {
+    "hints": [
+      "天",
+      "道",
+      "生"
+    ],
+    "answer": "路",
+    "position": "suffix",
+    "explanation": "可組成:天路、道路、生路。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "皆常見詞,天路(天國)、道路(實體)、生路(出路)差異大"
+    },
+    "_missing": [
+      "天路"
+    ]
+  },
+  {
+    "hints": [
+      "家",
+      "生",
+      "面"
+    ],
+    "answer": "書",
+    "position": "prefix",
+    "explanation": "可組成:書家、書生、書面。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "書家(人)、書生(身分)、書面(形式)三詞常用且意義分歧"
+    },
+    "_missing": [
+      "書家"
+    ]
+  },
+  {
+    "hints": [
+      "國",
+      "相",
+      "老"
+    ],
+    "answer": "公",
+    "position": "suffix",
+    "explanation": "可組成:國公、相公、老公。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "國公(爵位)、相公(丈夫/敬稱)、老公(丈夫)三詞常見且意義有別"
+    },
+    "_missing": [
+      "國公"
+    ]
+  },
+  {
+    "hints": [
+      "門",
+      "手",
+      "地"
+    ],
+    "answer": "高",
+    "position": "prefix",
+    "explanation": "可組成:高門、高手、高地。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "高門指門第、高手指能人、高地指地形,意義分明"
+    },
+    "_missing": [
+      "高門"
+    ]
+  },
+  {
+    "hints": [
+      "分",
+      "面",
+      "落"
+    ],
+    "answer": "紅",
+    "position": "suffix",
+    "explanation": "可組成:分紅、面紅、落紅。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "分紅(利潤)、面紅(臉紅)、落紅(花瓣/初夜)語意大不同"
+    },
+    "_missing": [
+      "面紅",
+      "落紅"
+    ]
+  },
+  {
+    "hints": [
+      "長",
+      "面",
+      "女"
+    ],
+    "answer": "紅",
+    "position": "suffix",
+    "explanation": "可組成:長紅、面紅、女紅。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "長紅(持續)、面紅(臉)、女紅(刺繡)三者完全不同義"
+    },
+    "_missing": [
+      "面紅"
+    ]
+  },
+  {
+    "hints": [
+      "子",
+      "頭",
+      "氣"
+    ],
+    "answer": "老",
+    "position": "prefix",
+    "explanation": "可組成:老子、老頭、老氣。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "老子(人)、老頭(人)、老氣(風格)語義角色稍有差異"
+    },
+    "_missing": [
+      "老頭"
+    ]
+  },
+  {
+    "hints": [
+      "巴",
+      "冠",
+      "婆"
+    ],
+    "answer": "雞",
+    "position": "prefix",
+    "explanation": "可組成:雞巴、雞冠、雞婆。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "雞巴(俗稱)、雞冠(部位)、雞婆(比喻)三義迥異"
+    },
+    "_missing": [
+      "雞巴"
+    ]
+  },
+  {
+    "hints": [
+      "心",
+      "白",
+      "手"
+    ],
+    "answer": "眼",
+    "position": "suffix",
+    "explanation": "可組成:心眼、白眼、手眼。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "三詞皆熟悉,心眼=心思、白眼=輕視、手眼=手段"
+    },
+    "_missing": [
+      "手眼"
+    ]
+  },
+  {
+    "hints": [
+      "力",
+      "房",
+      "語"
+    ],
+    "answer": "耳",
+    "position": "prefix",
+    "explanation": "可組成:耳力、耳房、耳語。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "耳力、耳房、耳語皆常見且意義不同"
+    },
+    "_missing": [
+      "耳力"
+    ]
+  },
+  {
+    "hints": [
+      "報",
+      "皮",
+      "斷"
+    ],
+    "answer": "果",
+    "position": "prefix",
+    "explanation": "可組成:果報、果皮、果斷。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "果報(因果)、果皮(部位)、果斷(形容詞)三種不同用法"
+    },
+    "_missing": [
+      "果報"
+    ]
+  },
+  {
+    "hints": [
+      "酒",
+      "主",
+      "點"
+    ],
+    "answer": "菜",
+    "position": "suffix",
+    "explanation": "可組成:酒菜、主菜、點菜。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "酒菜=下酒、主菜=主要、點菜=動作,角色多樣"
+    },
+    "_missing": [
+      "主菜"
+    ]
+  },
+  {
+    "hints": [
+      "短",
+      "助",
+      "趕"
+    ],
+    "answer": "跑",
+    "position": "suffix",
+    "explanation": "可組成:短跑、助跑、趕跑。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "短跑(運動)、助跑(輔助)、趕跑(驅趕)語意差異大"
+    },
+    "_missing": [
+      "趕跑"
+    ]
+  },
+  {
+    "hints": [
+      "酒",
+      "土",
+      "力"
+    ],
+    "answer": "吃",
+    "position": "prefix",
+    "explanation": "可組成:吃酒、吃土、吃力。",
+    "_meta": {
+      "diversity": 9,
+      "commonness": 8,
+      "rationale": "吃酒(飲)、吃土(網路用語)、吃力(費勁)義項分明且常用"
+    },
+    "_missing": [
+      "吃酒",
+      "吃土"
+    ]
+  },
+  {
+    "hints": [
+      "老",
+      "師",
+      "後"
+    ],
+    "answer": "父",
+    "position": "suffix",
+    "explanation": "可組成:老父、師父、後父。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "老父血親、師父技藝、後父繼父,差異明顯"
+    },
+    "_missing": [
+      "後父"
+    ]
+  },
+  {
+    "hints": [
+      "太",
+      "阿",
+      "弟"
+    ],
+    "answer": "妹",
+    "position": "suffix",
+    "explanation": "可組成:太妹、阿妹、弟妹。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "太妹(不良少女)、阿妹(暱稱)、弟妹(弟弟妻或弟與妹)語意差異大"
+    },
+    "_missing": [
+      "阿妹"
+    ]
+  },
+  {
+    "hints": [
+      "代",
+      "簡",
+      "特"
+    ],
+    "answer": "寫",
+    "position": "suffix",
+    "explanation": "可組成:代寫、簡寫、特寫。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "代簡特寫意義各異"
+    },
+    "_missing": [
+      "代寫"
+    ]
+  },
+  {
+    "hints": [
+      "合",
+      "高",
+      "點"
+    ],
+    "answer": "唱",
+    "position": "suffix",
+    "explanation": "可組成:合唱、高唱、點唱。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 9,
+      "rationale": "合唱高唱點唱常見,意義差異大"
+    },
+    "_missing": [
+      "高唱"
+    ]
+  },
+  {
+    "hints": [
+      "官",
+      "工",
+      "聲"
+    ],
+    "answer": "做",
+    "position": "prefix",
+    "explanation": "可組成:做官、做工、做聲。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "做官、做工、做聲皆常用且意義分歧"
+    },
+    "_missing": [
+      "做聲"
+    ]
+  },
+  {
+    "hints": [
+      "保",
+      "問",
+      "居"
+    ],
+    "answer": "住",
+    "position": "suffix",
+    "explanation": "可組成:保住、問住、居住。",
+    "_meta": {
+      "diversity": 8,
+      "commonness": 8,
+      "rationale": "保住=保全、問住=難倒、居住=居所,三義差異大"
+    },
+    "_missing": [
+      "保住",
+      "問住"
+    ]
+  }
+]

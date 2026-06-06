@@ -71,11 +71,27 @@ function validate(type, payload, idx) {
     }
     // 辭典硬驗證:每組 hint+answer 必須是 bigram.txt 內的雙字詞
     const bigrams = loadBigrams();
+    const words = payload.hints.map(h =>
+      payload.position === 'prefix' ? payload.answer + h : h + payload.answer
+    );
     if (bigrams.size > 0) {
-      for (const h of payload.hints) {
-        const word = payload.position === 'prefix' ? payload.answer + h : h + payload.answer;
+      for (const word of words) {
         if (!bigrams.has(word)) {
-          throw new Error(`#${idx} zizhu word not in dictionary: "${word}" (answer=${payload.answer}, hint=${h}, position=${payload.position})`);
+          throw new Error(`#${idx} zizhu word not in dictionary: "${word}" (answer=${payload.answer}, position=${payload.position})`);
+        }
+      }
+    }
+    // definitions 為選填,若存在則 key 必須跟組合出的 3 個詞對齊
+    if (payload.definitions != null) {
+      if (typeof payload.definitions !== 'object' || Array.isArray(payload.definitions)) {
+        throw new Error(`#${idx} zizhu definitions must be a plain object`);
+      }
+      for (const word of words) {
+        // 允許某詞缺釋義 (graceful),但若存在的 key 必須在 3 詞之內
+      }
+      for (const k of Object.keys(payload.definitions)) {
+        if (!words.includes(k)) {
+          throw new Error(`#${idx} zizhu definitions has unexpected key "${k}" (expected one of ${words.join(',')})`);
         }
       }
     }

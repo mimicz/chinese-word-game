@@ -1,11 +1,15 @@
 // === 字字千金 v2 — 主程式 ===
 
-const LEVEL_QUESTION_COUNT = 10;
-const SCORE_PER_CORRECT = 10;
+const LEVEL_TOTAL_SCORE = 100;       // 關卡模式總分滿分;單題上限 = 100 / 該題型題數
 const NICKNAME_KEY = 'zzqj_nickname';
 
+function getLevelQuestionCount(type) {
+  // zizhu 每關 5 題 (每題作答時間較長);jiangcuo 每關 10 題
+  return type === 'zizhu' ? 5 : 10;
+}
+
 function getTimePerQuestion(type, difficulty) {
-  if (type === 'zizhu' && difficulty === 'middle') return 180; // 3 分鐘
+  if (type === 'zizhu') return difficulty === 'middle' ? 180 : 60; // 國中以上 3 分鐘、國小以下 1 分鐘
   return 15;
 }
 
@@ -23,6 +27,7 @@ const state = {
   wrongCount: 0,
   timer: null,
   timeLeft: 0,
+  questionStartTime: 0,  // Date.now() 開始計時的時間,用來算精確剩餘時間
   answered: false,
   // 排行榜 tab 當前選取
   lbType: 'jiangcuo',
@@ -213,7 +218,7 @@ async function startGame() {
   document.getElementById('game-feedback').innerHTML = '';
 
   // 取題
-  const count = state.mode === 'levels' ? LEVEL_QUESTION_COUNT : 30;
+  const count = state.mode === 'levels' ? getLevelQuestionCount(state.type) : 30;
   const result = await API.fetchQuestions(state.type, state.difficulty, count);
   state.online = result.online;
   state.questions = result.questions;
@@ -229,6 +234,17 @@ async function startGame() {
   }
 
   renderQuestion();
+}
+
+// 線性計分:剩滿時間 = 單題上限分數,時間到 = 0 分
+// 單題上限 = 100 / 該題型每關題數 (jiangcuo 10題 → 每題 10 分;zizhu 5題 → 每題 20 分)
+// 用 Date.now() 換算精確剩餘秒數,避開 1 秒 tick 的取整誤差
+function computeScoreFromTime() {
+  const maxPerQ = LEVEL_TOTAL_SCORE / getLevelQuestionCount(state.type);
+  const elapsedSec = (Date.now() - state.questionStartTime) / 1000;
+  const remainSec = state.timePerQuestion - elapsedSec;
+  const raw = (remainSec / state.timePerQuestion) * maxPerQ;
+  return Math.max(0, Math.round(raw));
 }
 
 function updateProgressHUD() {
@@ -307,8 +323,13 @@ function handleJiangcuoAnswer(btn, q) {
 
   if (isRight) {
     state.correctCount++;
-    state.score += SCORE_PER_CORRECT;
-    showFeedback(true, q.explanation);
+    if (state.mode === 'levels') {
+      const earned = computeScoreFromTime();
+      state.score += earned;
+      showFeedback(true, `+${earned} 分。${q.explanation}`);
+    } else {
+      showFeedback(true, q.explanation);
+    }
   } else {
     state.wrongCount++;
     showFeedback(false, `正確答案:「${q.correct}」。${q.explanation}`);
@@ -370,8 +391,13 @@ function handleZizhuAnswer(raw, q) {
 
   if (isRight) {
     state.correctCount++;
-    state.score += SCORE_PER_CORRECT;
-    showFeedback(true, q.explanation);
+    if (state.mode === 'levels') {
+      const earned = computeScoreFromTime();
+      state.score += earned;
+      showFeedback(true, `+${earned} 分。${q.explanation}`);
+    } else {
+      showFeedback(true, q.explanation);
+    }
   } else {
     state.wrongCount++;
     showFeedback(false, `正確答案:「${q.answer}」。${q.explanation}`);
@@ -388,17 +414,32 @@ function showFeedback(isRight, explanation) {
 
   let html = `
     <div class="feedback ${isRight ? 'feedback-correct' : 'feedback-wrong'}">
-      <div class="feedback-icon">${isRight ? '✓ 答對' : '✗ 答錯'}</div>
+      <div class="feedback-header">
+        <div class="feedback-icon">${isRight ? '✓ 答對' : '✗ 答錯'}</div>
+        <button class="btn-next" id="btn-next">下一題 →</button>
+      </div>
   `;
   if (showExplain && explanation) {
     html += `<div class="feedback-text">${escapeHtml(explanation)}</div>`;
   }
-  html += `
-    <div class="feedback-actions">
-      ${canReport ? `<button class="link-report" id="btn-report">⚠ 回報題目有誤</button>` : ''}
-      <button class="btn-next" id="btn-next">下一題 →</button>
-    </div>
-  </div>`;
+  const defs = currentQ?.payload?.definitions;
+  if (showExplain && defs && typeof defs === 'object') {
+    const entries = Object.entries(defs);
+    if (entries.length > 0) {
+      html += `<div class="word-definitions">`;
+      for (const [word, def] of entries) {
+        html += `<div class="word-def"><span class="word">${escapeHtml(word)}</span><span class="def">${escapeHtml(def)}</span></div>`;
+      }
+      html += `</div>`;
+    }
+  }
+  if (canReport) {
+    html += `
+      <div class="feedback-actions">
+        <button class="link-report" id="btn-report">⚠ 回報題目有誤</button>
+      </div>`;
+  }
+  html += `</div>`;
 
   const fb = document.getElementById('game-feedback');
   fb.innerHTML = html;
@@ -424,6 +465,7 @@ function goNext() {
 // === 計時器 ===
 function startTimer() {
   state.timeLeft = state.timePerQuestion;
+  state.questionStartTime = Date.now();
   const el = document.getElementById('hud-timer');
   el.textContent = formatTime(state.timeLeft);
   el.classList.remove('timer-warning');

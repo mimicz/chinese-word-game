@@ -26,6 +26,20 @@ const SEEDS_JSON = join(ROOT, 'schema', 'seeds-json');
 const CANDIDATES_DIR = join(DICT_DIR, '.candidates');
 const RERANK_CACHE = join(DICT_DIR, '.rerank-cache.json');
 const BATCH_STATE = join(DICT_DIR, '.batch-state.json');
+const DEFS_PATH = join(DICT_DIR, '.cache', 'concised-defs.json');
+
+let _defs = null;
+function loadDefs() {
+  if (_defs !== null) return _defs;
+  if (!existsSync(DEFS_PATH)) {
+    console.warn(`(warn) 找不到 ${DEFS_PATH},LLM 提示與 collect 不會帶釋義`);
+    console.warn(`        建議先執行: node scripts/build-concised-defs.mjs`);
+    _defs = {};
+    return _defs;
+  }
+  _defs = JSON.parse(readFileSync(DEFS_PATH, 'utf-8'));
+  return _defs;
+}
 
 if (!existsSync(CANDIDATES_DIR)) mkdirSync(CANDIDATES_DIR, { recursive: true });
 
@@ -222,9 +236,15 @@ function saveCache(c) {
 }
 
 function buildPrompt(ch, position, tuples) {
+  const defs = loadDefs();
   const tupleList = tuples.map((t, i) => {
-    const words = t.hints.map(h => makeWord(ch, position, h)).join('、');
-    return `${i}: ${words}`;
+    const words = t.hints.map(h => makeWord(ch, position, h));
+    const wordsStr = words.join('、');
+    const defLines = words.map(w => {
+      const d = defs[w];
+      return d ? `      - ${w}:${d}` : `      - ${w}:(辭典查無釋義)`;
+    }).join('\n');
+    return `${i}: ${wordsStr}\n${defLines}`;
   }).join('\n');
 
   const example = position === 'suffix'
@@ -238,7 +258,9 @@ function buildPrompt(ch, position, tuples) {
 2. **diversity**: 共通字在 3 個詞中盡量表達不同意思/語法角色,例如:
    ${example}
 
-下方是答案為「${ch}」、位置為「${position === 'prefix' ? '前綴 (' + ch + '_)' : '後綴 (_' + ch + ')'}」的 ${tuples.length} 組候選詞 (每組 3 詞):
+下方每組附上教育部《國語辭典簡編本》的官方釋義 — 請依釋義判斷 diversity (3 個釋義在語意上是否區分明顯),依詞本身判斷 commonness。
+
+答案為「${ch}」、位置為「${position === 'prefix' ? '前綴 (' + ch + '_)' : '後綴 (_' + ch + ')'}」的 ${tuples.length} 組候選詞:
 
 ${tupleList}
 
@@ -401,15 +423,21 @@ async function runCollect() {
       .slice(0, MAX_QUESTIONS_PER_CHAR);
     if (accepted.length === 0) { charsDropped++; continue; }
     charsAccepted++;
+    const defs = loadDefs();
     for (const r of accepted) {
       const t = g.tuples[r.idx];
       if (!t) continue;
       const words = t.hints.map(h => makeWord(g.ch, g.position, h));
+      const definitions = {};
+      for (const w of words) {
+        if (defs[w]) definitions[w] = defs[w];
+      }
       finalQuestions.push({
         hints: t.hints,
         answer: g.ch,
         position: g.position,
         explanation: `可組成:${words.join('、')}。`,
+        ...(Object.keys(definitions).length > 0 ? { definitions } : {}),
         _diversity: r.diversity,
         _commonness: r.commonness,
         _rationale: r.rationale,
